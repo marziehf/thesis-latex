@@ -1,0 +1,2165 @@
+\begin{thebibliography}{248}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdulmumin et~al.(2020)Abdulmumin, Galadanci, and
+  Isa]{abdulmumin2020using}
+I.~Abdulmumin, B.~S. Galadanci, and A.~Isa.
+\newblock Using self-training to improve back-translation in low resource
+  neural machine translation, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.02876}.
+
+\bibitem[Agarwal and Lavie(2008)]{agarwal-lavie-2008-meteor}
+A.~Agarwal and A.~Lavie.
+\newblock Meteor, {M}-{BLEU} and {M}-{TER}: Evaluation metrics for
+  high-correlation with human rankings of machine translation output.
+\newblock In \emph{Proceedings of the Third Workshop on Statistical Machine
+  Translation}, pages 115--118, Columbus, Ohio, June 2008. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W08-0312}.
+
+\bibitem[Agrawal et~al.(2018)Agrawal, Chenthil~Kumar, Muralidharan, and
+  Sharma]{agrawal-etal-2018-beating}
+R.~Agrawal, V.~Chenthil~Kumar, V.~Muralidharan, and D.~Sharma.
+\newblock No more beating about the bush : A step towards idiom handling for
+  {I}ndian language {NLP}.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation ({LREC}-2018)}, Miyazaki, Japan, May 2018.
+  European Languages Resources Association (ELRA).
+\newblock URL \url{https://www.aclweb.org/anthology/L18-1048}.
+
+\bibitem[Aharoni et~al.(2019)Aharoni, Johnson, and
+  Firat]{aharoni-etal-2019-massively}
+R.~Aharoni, M.~Johnson, and O.~Firat.
+\newblock Massively multilingual neural machine translation.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 3874--3884,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N19-1388}.
+
+\bibitem[Andreas(2019)]{DBLP:journals/corr/abs-1902-07181}
+J.~Andreas.
+\newblock Measuring compositionality in representation learning.
+\newblock \emph{CoRR}, abs/1902.07181, 2019.
+\newblock URL \url{http://arxiv.org/abs/1902.07181}.
+
+\bibitem[Artetxe et~al.(2018{\natexlab{a}})Artetxe, Labaka, and
+  Agirre]{artetxe-etal-2018-unsupervised}
+M.~Artetxe, G.~Labaka, and E.~Agirre.
+\newblock Unsupervised statistical machine translation.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3632--3642, Brussels, Belgium, Oct.
+  2018{\natexlab{a}}. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1399}.
+
+\bibitem[Artetxe et~al.(2018{\natexlab{b}})Artetxe, Labaka, Agirre, and
+  Cho]{artetxe2018iclr}
+M.~Artetxe, G.~Labaka, E.~Agirre, and K.~Cho.
+\newblock Unsupervised neural machine translation.
+\newblock In \emph{6th International Conference on Learning Representations,
+  {ICLR} 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track
+  Proceedings}, Apr. 2018{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/pdf?id=Sy2ogebAW}.
+
+\bibitem[Artetxe et~al.(2019)Artetxe, Labaka, and
+  Agirre]{artetxe-etal-2019-effective}
+M.~Artetxe, G.~Labaka, and E.~Agirre.
+\newblock An effective approach to unsupervised machine translation.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 194--203, Florence, Italy, July 2019.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P19-1019}.
+
+\bibitem[Axelrod et~al.(2011)Axelrod, He, and Gao]{D11-1033}
+A.~Axelrod, X.~He, and J.~Gao.
+\newblock Domain adaptation via pseudo in-domain data selection.
+\newblock In \emph{Proceedings of the 2011 Conference on Empirical Methods in
+  Natural Language Processing}, pages 355--362. Association for Computational
+  Linguistics, 2011.
+\newblock URL \url{http://www.aclweb.org/anthology/D11-1033}.
+
+\bibitem[Axelrod et~al.(2015)Axelrod, Vyas, Martindale, Carpuat, and
+  Hopkins]{axelrod2015class}
+A.~Axelrod, Y.~Vyas, M.~Martindale, M.~Carpuat, and J.~Hopkins.
+\newblock Class-based n-gram language difference models for data selection.
+\newblock In \emph{IWSLT (International Workshop on Spoken Language
+  Translation)}, pages 180--187, 2015.
+\newblock URL
+  \url{http://workshop2015.iwslt.org/downloads/IWSLT\%5F2015\%5FRP\%5F17.pdf}.
+
+\bibitem[Ba et~al.(2016)Ba, Kiros, and Hinton]{Ba2016LayerN}
+L.~J. Ba, J.~R. Kiros, and G.~E. Hinton.
+\newblock Layer normalization.
+\newblock \emph{CoRR}, abs/1607.06450, 2016.
+\newblock URL \url{http://arxiv.org/abs/1607.06450}.
+
+\bibitem[Bahdanau et~al.(2015)Bahdanau, Cho, and
+  Bengio]{DBLP:journals/corr/BahdanauCB14}
+D.~Bahdanau, K.~Cho, and Y.~Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2015.
+\newblock URL \url{https://arxiv.org/abs/1409.0473}.
+
+\bibitem[Banerjee and Lavie(2005)]{banerjee-lavie-2005-meteor}
+S.~Banerjee and A.~Lavie.
+\newblock {METEOR}: An automatic metric for {MT} evaluation with improved
+  correlation with human judgments.
+\newblock In \emph{Proceedings of the {ACL} Workshop on Intrinsic and Extrinsic
+  Evaluation Measures for Machine Translation and/or Summarization}, pages
+  65--72, Ann Arbor, Michigan, June 2005. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W05-0909}.
+
+\bibitem[Baroni(2019)]{DBLP:journals/corr/abs-1904-00157}
+M.~Baroni.
+\newblock Linguistic generalization and compositionality in modern artificial
+  neural networks.
+\newblock \emph{CoRR}, abs/1904.00157, 2019.
+\newblock URL \url{http://arxiv.org/abs/1904.00157}.
+
+\bibitem[Baroni and Lenci(2010)]{baroni-lenci-2010-distributional}
+M.~Baroni and A.~Lenci.
+\newblock Distributional memory: A general framework for corpus-based
+  semantics.
+\newblock \emph{Computational Linguistics}, 36\penalty0 (4):\penalty0 673--721,
+  2010.
+\newblock URL \url{https://www.aclweb.org/anthology/J10-4006}.
+
+\bibitem[Baroni et~al.(2014)Baroni, Dinu, and
+  Kruszewski]{baroni-etal-2014-dont}
+M.~Baroni, G.~Dinu, and G.~Kruszewski.
+\newblock Don{'}t count, predict! {A} systematic comparison of context-counting
+  vs. context-predicting semantic vectors.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 238--247,
+  Baltimore, Maryland, June 2014. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P14-1023}.
+
+\bibitem[Barrault et~al.(2019)Barrault, Bojar, Costa-juss{\`a}, Federmann,
+  Fishel, Graham, Haddow, Huck, Koehn, Malmasi, Monz, M{\"u}ller, Pal, Post,
+  and Zampieri]{barrault-EtAl:2019:WMT}
+L.~Barrault, O.~Bojar, M.~R. Costa-juss{\`a}, C.~Federmann, M.~Fishel,
+  Y.~Graham, B.~Haddow, M.~Huck, P.~Koehn, S.~Malmasi, C.~Monz, M.~M{\"u}ller,
+  S.~Pal, M.~Post, and M.~Zampieri.
+\newblock Findings of the 2019 conference on machine translation ({WMT}19).
+\newblock In \emph{Proceedings of the Fourth Conference on Machine Translation
+  (Volume 2: Shared Task Papers, Day 1)}, pages 1--61, Florence, Italy, Aug.
+  2019. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W19-5301}.
+
+\bibitem[Belinkov and Bisk(2018)]{DBLP:journals/corr/abs-1711-02173}
+Y.~Belinkov and Y.~Bisk.
+\newblock Synthetic and natural noise both break neural machine translation.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2018.
+\newblock URL
+  \url{http://people.csail.mit.edu/belinkov/assets/pdf/iclr2018.pdf}.
+
+\bibitem[Belinkov et~al.(2017)Belinkov, Durrani, Dalvi, Sajjad, and
+  Glass]{belinkov-etal-2017-neural}
+Y.~Belinkov, N.~Durrani, F.~Dalvi, H.~Sajjad, and J.~Glass.
+\newblock What do neural machine translation models learn about morphology?
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 861--872,
+  Vancouver, Canada, July 2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P17-1080}.
+
+\bibitem[Bengio et~al.(2003)Bengio, Ducharme, Vincent, and Janvin]{Bengio:2003}
+Y.~Bengio, R.~Ducharme, P.~Vincent, and C.~Janvin.
+\newblock A neural probabilistic language model.
+\newblock \emph{The Journal of Machine Learning Research}, 3:\penalty0
+  1137--1155, Mar. 2003.
+\newblock URL \url{http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf}.
+
+\bibitem[Bentivogli et~al.(2016)Bentivogli, Bisazza, Cettolo, and
+  Federico]{bentivogli-EtAl:2016:EMNLP2016}
+L.~Bentivogli, A.~Bisazza, M.~Cettolo, and M.~Federico.
+\newblock Neural versus phrase-based machine translation quality: a case study.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 257--267, Austin, Texas, Nov. 2016.
+  Association for Computational Linguistics.
+\newblock URL \url{https://aclweb.org/anthology/D16-1025}.
+
+\bibitem[Blackwood et~al.(2018)Blackwood, Ballesteros, and
+  Ward]{blackwood-etal-2018-multilingual}
+G.~Blackwood, M.~Ballesteros, and T.~Ward.
+\newblock Multilingual neural machine translation with task-specific attention.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 3112--3122, Santa Fe, New Mexico, USA, Aug.
+  2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/C18-1263}.
+
+\bibitem[Bojar et~al.(2016)Bojar, Chatterjee, Federmann, Graham, Haddow, Huck,
+  Jimeno~Yepes, Koehn, Logacheva, Monz, Negri, Neveol, Neves, Popel, Post,
+  Rubino, Scarton, Specia, Turchi, Verspoor, and
+  Zampieri]{bojar-EtAl:2016:WMT1}
+O.~Bojar, R.~Chatterjee, C.~Federmann, Y.~Graham, B.~Haddow, M.~Huck,
+  A.~Jimeno~Yepes, P.~Koehn, V.~Logacheva, C.~Monz, M.~Negri, A.~Neveol,
+  M.~Neves, M.~Popel, M.~Post, R.~Rubino, C.~Scarton, L.~Specia, M.~Turchi,
+  K.~Verspoor, and M.~Zampieri.
+\newblock Findings of the 2016 conference on machine translation.
+\newblock In \emph{Proceedings of the First Conference on Machine Translation},
+  pages 131--198, Berlin, Germany, Aug. 2016. Association for Computational
+  Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W/W16/W16-2301}.
+
+\bibitem[Bojar et~al.(2017)Bojar, Chatterjee, Federmann, Graham, Haddow, Huang,
+  Huck, Koehn, Liu, Logacheva, Monz, Negri, Post, Rubino, Specia, and
+  Turchi]{bojar-EtAl:2017:WMT1}
+O.~Bojar, R.~Chatterjee, C.~Federmann, Y.~Graham, B.~Haddow, S.~Huang, M.~Huck,
+  P.~Koehn, Q.~Liu, V.~Logacheva, C.~Monz, M.~Negri, M.~Post, R.~Rubino,
+  L.~Specia, and M.~Turchi.
+\newblock Findings of the 2017 conference on machine translation ({WMT17}).
+\newblock In \emph{Proceedings of the Second Conference on Machine Translation,
+  Volume 2: Shared Task Papers}, pages 169--214, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W17-4717}.
+
+\bibitem[Bojar et~al.(2018)Bojar, Federmann, Fishel, Graham, Haddow, Huck,
+  Koehn, and Monz]{bojar-EtAl:2018:WMT1}
+O.~Bojar, C.~Federmann, M.~Fishel, Y.~Graham, B.~Haddow, M.~Huck, P.~Koehn, and
+  C.~Monz.
+\newblock Findings of the 2018 conference on machine translation ({WMT18}).
+\newblock In \emph{Proceedings of the Third Conference on Machine Translation,
+  Volume 2: Shared Task Papers}, pages 272--307, Belgium, Brussels, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W18-6401}.
+
+\bibitem[Boyd-Graber et~al.(2007)Boyd-Graber, Blei, and
+  Zhu]{boyd-graber-etal-2007-topic}
+J.~Boyd-Graber, D.~Blei, and X.~Zhu.
+\newblock A topic model for word sense disambiguation.
+\newblock In \emph{Proceedings of the 2007 Joint Conference on Empirical
+  Methods in Natural Language Processing and Computational Natural Language
+  Learning ({EMNLP}-{C}o{NLL})}, pages 1024--1033, Prague, Czech Republic, June
+  2007. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D07-1109}.
+
+\bibitem[Brants et~al.(2007)Brants, Popat, Xu, Och, and
+  Dean]{brants-etal-2007-large}
+T.~Brants, A.~C. Popat, P.~Xu, F.~J. Och, and J.~Dean.
+\newblock Large language models in machine translation.
+\newblock In \emph{Proceedings of the 2007 Joint Conference on Empirical
+  Methods in Natural Language Processing and Computational Natural Language
+  Learning ({EMNLP}-{C}o{NLL})}, pages 858--867, Prague, Czech Republic, June
+  2007. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D07-1090}.
+
+\bibitem[Britz et~al.(2017)Britz, Goldie, Luong, and
+  Le]{britz-etal-2017-massive}
+D.~Britz, A.~Goldie, M.-T. Luong, and Q.~Le.
+\newblock Massive exploration of neural machine translation architectures.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1442--1451, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D17-1151}.
+
+\bibitem[Brody and Lapata(2009)]{brody-lapata:2009:EACL}
+S.~Brody and M.~Lapata.
+\newblock Bayesian word sense induction.
+\newblock In \emph{Proceedings of the 12th Conference of the European Chapter
+  of the ACL (EACL 2009)}, pages 103--111, Athens, Greece, Mar. 2009.
+  Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/E09-1013}.
+
+\bibitem[Bruni et~al.(2012)Bruni, Boleda, Baroni, and
+  Tran]{bruni-etal-2012-distributional}
+E.~Bruni, G.~Boleda, M.~Baroni, and N.-K. Tran.
+\newblock Distributional semantics in technicolor.
+\newblock In \emph{Proceedings of the 50th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 136--145, Jeju
+  Island, Korea, July 2012. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P12-1015}.
+
+\bibitem[Burlot and Yvon(2018)]{burlot-yvon-2018-using}
+F.~Burlot and F.~Yvon.
+\newblock Using monolingual data in neural machine translation: a systematic
+  study.
+\newblock In \emph{Proceedings of the Third Conference on Machine Translation:
+  Research Papers}, pages 144--155, Brussels, Belgium, Oct. 2018. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W18-6315}.
+
+\bibitem[Callison-Burch et~al.(2006)Callison-Burch, Osborne, and
+  Koehn]{callison-burch-etal-2006-evaluating}
+C.~Callison-Burch, M.~Osborne, and P.~Koehn.
+\newblock Re-evaluating the role of {B}leu in machine translation research.
+\newblock In \emph{11th Conference of the {E}uropean Chapter of the Association
+  for Computational Linguistics}, Trento, Italy, Apr. 2006. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/E06-1032}.
+
+\bibitem[Callison-Burch et~al.(2007)Callison-Burch, Fordyce, Koehn, Monz, and
+  Schroeder]{callisonburch-EtAl:2007:WMT}
+C.~Callison-Burch, C.~Fordyce, P.~Koehn, C.~Monz, and J.~Schroeder.
+\newblock (meta-) evaluation of machine translation.
+\newblock In \emph{Proceedings of the Second Workshop on Statistical Machine
+  Translation}, pages 136--158, Prague, Czech Republic, June 2007. Association
+  for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W/W07/W07-0218}.
+
+\bibitem[Chaplot and Salakhutdinov(2018)]{ChaplotS18}
+D.~S. Chaplot and R.~Salakhutdinov.
+\newblock Knowledge-based word sense disambiguation using topic models.
+\newblock In \emph{Proceedings of the Thirty-Second {AAAI} Conference on
+  Artificial Intelligence, (AAAI-18), the 30th innovative Applications of
+  Artificial Intelligence (IAAI-18), and the 8th {AAAI} Symposium on
+  Educational Advances in Artificial Intelligence (EAAI-18), New Orleans,
+  Louisiana, USA, February 2-7, 2018}, pages 5062--5069, 2018.
+\newblock URL
+  \url{https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17415/16787}.
+
+\bibitem[Chatfield et~al.(2014)Chatfield, Simonyan, Vedaldi, and
+  Zisserman]{DBLP:conf/bmvc/ChatfieldSVZ14}
+K.~Chatfield, K.~Simonyan, A.~Vedaldi, and A.~Zisserman.
+\newblock Return of the devil in the details: Delving deep into convolutional
+  nets.
+\newblock In \emph{Proceedings of the British Machine Vision Conference}. BMVA
+  Press, 2014.
+\newblock URL \url{https://arxiv.org/abs/1405.3531}.
+
+\bibitem[Chen et~al.(2019)Chen, Stanovsky, Singh, and
+  Gardner]{chen-etal-2019-evaluating}
+A.~Chen, G.~Stanovsky, S.~Singh, and M.~Gardner.
+\newblock Evaluating question answering evaluation.
+\newblock In \emph{Proceedings of the 2nd Workshop on Machine Reading for
+  Question Answering}, pages 119--124, Hong Kong, China, Nov. 2019. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D19-5817}.
+
+\bibitem[Chen and Goodman(1996)]{chen1996empirical}
+S.~F. Chen and J.~Goodman.
+\newblock An empirical study of smoothing techniques for language modeling.
+\newblock In \emph{Proceedings of the 34th annual meeting on Association for
+  Computational Linguistics}, pages 310--318. Association for Computational
+  Linguistics, 1996.
+\newblock URL \url{https://www.aclweb.org/anthology/P96-1041}.
+
+\bibitem[Cherry et~al.(2018)Cherry, Foster, Bapna, Firat, and
+  Macherey]{cherry-etal-2018-revisiting}
+C.~Cherry, G.~Foster, A.~Bapna, O.~Firat, and W.~Macherey.
+\newblock Revisiting character-based neural machine translation with capacity
+  and compression.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 4295--4305, Brussels, Belgium, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1461}.
+
+\bibitem[Chevalier-Boisvert et~al.(2019)Chevalier-Boisvert, Bahdanau, Lahlou,
+  Willems, Saharia, Nguyen, and Bengio]{babyai_iclr19}
+M.~Chevalier-Boisvert, D.~Bahdanau, S.~Lahlou, L.~Willems, C.~Saharia, T.~H.
+  Nguyen, and Y.~Bengio.
+\newblock Baby{AI}: First steps towards grounded language learning with a human
+  in the loop.
+\newblock In \emph{International Conference on Learning Representations}, 2019.
+\newblock URL \url{https://openreview.net/forum?id=rJeXCo0cYX}.
+
+\bibitem[Cho et~al.(2014)Cho, {van Merrienboer}, Bahdanau, and
+  Bengio]{cho2014properties}
+K.~Cho, B.~{van Merrienboer}, D.~Bahdanau, and Y.~Bengio.
+\newblock On the properties of neural machine translation: Encoder-decoder
+  approaches.
+\newblock In \emph{Eighth Workshop on Syntax, Semantics and Structure in
+  Statistical Translation (SSST-8), 2014}, 2014.
+\newblock URL \url{https://arxiv.org/abs/1409.1259}.
+
+\bibitem[Chowdhury and Zamparelli(2018)]{chowdhury-zamparelli-2018-rnn}
+S.~A. Chowdhury and R.~Zamparelli.
+\newblock {RNN} simulations of grammaticality judgments on long-distance
+  dependencies.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 133--144, Santa Fe, New Mexico, USA, Aug.
+  2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/C18-1012}.
+
+\bibitem[Cogswell et~al.(2019)Cogswell, Lu, Lee, Parikh, and
+  Batra]{cogswell2019emergence}
+M.~Cogswell, J.~Lu, S.~Lee, D.~Parikh, and D.~Batra.
+\newblock Emergence of compositional language with deep generational
+  transmission, 2019.
+\newblock URL \url{https://openreview.net/forum?id=r1gzoaNtvr}.
+
+\bibitem[Collobert et~al.(2019)Collobert, Hannun, and Synnaeve]{collobert2019a}
+R.~Collobert, A.~Hannun, and G.~Synnaeve.
+\newblock A fully differentiable beam search decoder.
+\newblock \emph{International Conference on Machine Learning}, pages
+  1341--1350, 2019.
+\newblock URL \url{https://arxiv.org/abs/1902.06022}.
+
+\bibitem[Costa-juss{\`a} and
+  Fonollosa(2016)]{costa-jussa-fonollosa-2016-character}
+M.~R. Costa-juss{\`a} and J.~A.~R. Fonollosa.
+\newblock Character-based neural machine translation.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, pages 357--361,
+  Berlin, Germany, Aug. 2016. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P16-2058}.
+
+\bibitem[Cubuk et~al.(2019)Cubuk, Zoph, Mane, Vasudevan, and
+  Le]{cubuk2019autoaugment}
+E.~D. Cubuk, B.~Zoph, D.~Mane, V.~Vasudevan, and Q.~V. Le.
+\newblock Auto{A}ugment: Learning augmentation strategies from data.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 113--123, 2019.
+\newblock URL \url{https://arxiv.org/abs/1805.09501}.
+
+\bibitem[Currey and Heafield(2019)]{currey-heafield-2019-zero}
+A.~Currey and K.~Heafield.
+\newblock Zero-resource neural machine translation with monolingual pivot data.
+\newblock In \emph{Proceedings of the 3rd Workshop on Neural Generation and
+  Translation}, pages 99--107, Hong Kong, Nov. 2019. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D19-5610}.
+
+\bibitem[Currey et~al.(2017)Currey, Barone, and Heafield]{currey2017copied}
+A.~Currey, A.~V.~M. Barone, and K.~Heafield.
+\newblock Copied monolingual data improves low-resource neural machine
+  translation.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 148--156, 2017.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-4715}.
+
+\bibitem[Denkowski and Lavie(2011)]{denkowski-lavie-2011-meteor}
+M.~Denkowski and A.~Lavie.
+\newblock Meteor 1.3: Automatic metric for reliable optimization and evaluation
+  of machine translation systems.
+\newblock In \emph{Proceedings of the Sixth Workshop on Statistical Machine
+  Translation}, pages 85--91, Edinburgh, Scotland, July 2011. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W11-2107}.
+
+\bibitem[Denkowski and Lavie(2014)]{denkowski:lavie:meteor-wmt:2014}
+M.~Denkowski and A.~Lavie.
+\newblock Meteor universal: Language specific translation evaluation for any
+  target language.
+\newblock In \emph{Proceedings of the Ninth Workshop on Statistical Machine
+  Translation}, pages 376--380, Baltimore, Maryland, USA, June 2014.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W14-3348}.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and
+  Toutanova]{devlin-etal-2019-bert}
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N19-1423}.
+
+\bibitem[Domhan and Hieber(2017)]{domhan-hieber-2017-using}
+T.~Domhan and F.~Hieber.
+\newblock Using target-side monolingual data for neural machine translation
+  through multi-task learning.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1500--1505, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D17-1158}.
+
+\bibitem[Duong et~al.(2015)Duong, Cohn, Bird, and Cook]{duong-EtAl:2015:EMNLP}
+L.~Duong, T.~Cohn, S.~Bird, and P.~Cook.
+\newblock A neural network model for low-resource universal dependency parsing.
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pages 339--348, Lisbon, Portugal, Sept. 2015.
+  Association for Computational Linguistics.
+\newblock URL \url{http://aclweb.org/anthology/D15-1040}.
+
+\bibitem[Dyer et~al.(2013)Dyer, Chahuneau, and
+  Smith]{dyer-chahuneau-smith:2013:NAACL-HLT}
+C.~Dyer, V.~Chahuneau, and N.~A. Smith.
+\newblock A simple, fast, and effective reparameterization of {IBM Model} 2.
+\newblock In \emph{Proceedings of the 2013 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 644--648, Atlanta, Georgia, June 2013. Association for
+  Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/N13-1073}.
+
+\bibitem[Edunov et~al.(2018)Edunov, Ott, Auli, and
+  Grangier]{edunov-etal-2018-understanding}
+S.~Edunov, M.~Ott, M.~Auli, and D.~Grangier.
+\newblock Understanding back-translation at scale.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 489--500, Brussels, Belgium, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1045}.
+
+\bibitem[Escud{\'e}~Font and
+  Costa-juss{\`a}(2019)]{escude-font-costa-jussa-2019-equalizing}
+J.~Escud{\'e}~Font and M.~R. Costa-juss{\`a}.
+\newblock Equalizing gender bias in neural machine translation with word
+  embeddings techniques.
+\newblock In \emph{Proceedings of the First Workshop on Gender Bias in Natural
+  Language Processing}, pages 147--154, Florence, Italy, Aug. 2019. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W19-3821}.
+
+\bibitem[Evert and Kermes(2003)]{evert-kermes-2003-experiments}
+S.~Evert and H.~Kermes.
+\newblock Experiments on candidate data for collocation extraction.
+\newblock In \emph{10th Conference of the {E}uropean Chapter of the Association
+  for Computational Linguistics}, Budapest, Hungary, Apr. 2003. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/E03-1080}.
+
+\bibitem[Evert and Krenn(2001)]{evert-krenn-2001-methods}
+S.~Evert and B.~Krenn.
+\newblock Methods for the qualitative evaluation of lexical association
+  measures.
+\newblock In \emph{Proceedings of the 39th Annual Meeting of the Association
+  for Computational Linguistics}, pages 188--195, Toulouse, France, July 2001.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P01-1025}.
+
+\bibitem[Fadaee and Monz(2018)]{fadaee-monz-2018-back}
+M.~Fadaee and C.~Monz.
+\newblock Back-translation sampling by targeting difficult words in neural
+  machine translation.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 436--446, Brussels, Belgium, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1040}.
+
+\bibitem[Fadaee and Monz(2020)]{fadaee_new}
+M.~Fadaee and C.~Monz.
+\newblock The unreasonable volatility of neural machine translation models.
+\newblock In \emph{Proceedings of the Fourth Workshop on Neural Generation and
+  Translation}, pages 88--96, Online, July 2020. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.ngt-1.10}.
+
+\bibitem[Fadaee et~al.(2017{\natexlab{a}})Fadaee, Bisazza, and
+  Monz]{fadaee-bisazza-monz:2017:Short2}
+M.~Fadaee, A.~Bisazza, and C.~Monz.
+\newblock Data augmentation for low-resource neural machine translation.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, pages 567--573,
+  Vancouver, Canada, July 2017{\natexlab{a}}. Association for Computational
+  Linguistics.
+\newblock URL \url{http://aclweb.org/anthology/P17-2090}.
+
+\bibitem[Fadaee et~al.(2017{\natexlab{b}})Fadaee, Bisazza, and
+  Monz]{fadaee-etal-2017-learning}
+M.~Fadaee, A.~Bisazza, and C.~Monz.
+\newblock Learning topic-sensitive word representations.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, pages 441--447,
+  Vancouver, Canada, July 2017{\natexlab{b}}. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P17-2070}.
+
+\bibitem[Fadaee et~al.(2018)Fadaee, Bisazza, and Monz]{L18-1148}
+M.~Fadaee, A.~Bisazza, and C.~Monz.
+\newblock Examining the tip of the iceberg: A data set for idiom translation.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation (LREC-2018)}. European Language Resource
+  Association, 2018.
+\newblock URL \url{http://aclweb.org/anthology/L18-1148}.
+
+\bibitem[Faruqui et~al.(2016)Faruqui, Tsvetkov, Rastogi, and
+  Dyer]{faruqui2016problems}
+M.~Faruqui, Y.~Tsvetkov, P.~Rastogi, and C.~Dyer.
+\newblock Problems with evaluation of word embeddings using word similarity
+  tasks.
+\newblock In \emph{Proceedings of the 1st Workshop on Evaluating Vector Space
+  Representations for NLP}, 2016.
+\newblock URL \url{http://arxiv.org/abs/1605.02276v1}.
+
+\bibitem[Finkelstein et~al.(2001)Finkelstein, Gabrilovich, Matias, Rivlin,
+  Solan, Wolfman, and Ruppin]{Finkelstein:2001:PSC:371920.372094}
+L.~Finkelstein, E.~Gabrilovich, Y.~Matias, E.~Rivlin, Z.~Solan, G.~Wolfman, and
+  E.~Ruppin.
+\newblock Placing search in context: The concept revisited.
+\newblock In \emph{Proceedings of the 10th International Conference on World
+  Wide Web}, WWW '01, pages 406--414, New York, NY, USA, 2001. ACM.
+\newblock URL \url{http://doi.acm.org/10.1145/371920.372094}.
+
+\bibitem[Firat et~al.(2016)Firat, Cho, and Bengio]{firat-etal-2016-multi}
+O.~Firat, K.~Cho, and Y.~Bengio.
+\newblock Multi-way, multilingual neural machine translation with a shared
+  attention mechanism.
+\newblock In \emph{Proceedings of the 2016 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 866--875, San Diego, California, June 2016. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N16-1101}.
+
+\bibitem[Firth(1957)]{firth1957synopsis}
+J.~R. Firth.
+\newblock A synopsis of linguistic theory 1930-55.
+\newblock In \emph{Studies in Linguistic Analysis (special volume of the
+  Philological Society)}, volume 1952-59, pages 1--32, Oxford, 1957. The
+  Philological Society.
+\newblock URL \url{https://ci.nii.ac.jp/naid/10020680394/}.
+
+\bibitem[Fodor and Lepore(1992)]{fodor1992holism}
+J.~Fodor and E.~Lepore.
+\newblock \emph{Holism: A Shopper's Guide}.
+\newblock Wiley, 1992.
+\newblock URL \url{https://books.google.nl/books?id=fjoji3YAwoUC}.
+
+\bibitem[Fodor and LePore(2002)]{fodor2002compositionality}
+J.~Fodor and E.~LePore.
+\newblock \emph{The Compositionality Papers}.
+\newblock Clarendon Press, 2002.
+\newblock URL \url{https://books.google.nl/books?id=qcI6IVquMdgC}.
+
+\bibitem[Frege(1892)]{Frege1892}
+G.~Frege.
+\newblock {\"U}ber {S}inn und {B}edeutung.
+\newblock \emph{Zeitschrift f{\"u}r Philosophie und philosophische Kritik},
+  100:\penalty0 25--50, 1892.
+\newblock URL
+  \url{https://pure.mpg.de/rest/items/item\%5F2320751/component/file\%5F2555768/content}.
+
+\bibitem[Freitag and Al-Onaizan(2017)]{freitag-al-onaizan-2017-beam}
+M.~Freitag and Y.~Al-Onaizan.
+\newblock Beam search strategies for neural machine translation.
+\newblock In \emph{Proceedings of the First Workshop on Neural Machine
+  Translation}, pages 56--60, Vancouver, Aug. 2017. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-3207}.
+
+\bibitem[Gage(1994)]{10.5555/177910.177914}
+P.~Gage.
+\newblock A new algorithm for data compression.
+\newblock \emph{The C Users Journal archive}, 12\penalty0 (2):\penalty0 23--38,
+  Feb. 1994.
+\newblock URL \url{https://www.derczynski.com/papers/archive/BPE\%5FGage.pdf}.
+
+\bibitem[Gale et~al.(1992)Gale, Church, and Yarowsky]{Gale1992}
+W.~A. Gale, K.~W. Church, and D.~Yarowsky.
+\newblock A method for disambiguating word senses in a large corpus.
+\newblock \emph{Computers and the Humanities}, 26\penalty0 (5):\penalty0
+  415--439, 1992.
+\newblock URL \url{https://link.springer.com/article/10.1007/BF00136984}.
+
+\bibitem[Ganitkevitch et~al.(2013)Ganitkevitch, Van~Durme, and
+  Callison-Burch]{ganitkevitch-etal-2013-ppdb}
+J.~Ganitkevitch, B.~Van~Durme, and C.~Callison-Burch.
+\newblock {PPDB}: The paraphrase database.
+\newblock In \emph{Proceedings of the 2013 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 758--764, Atlanta, Georgia, June 2013. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N13-1092}.
+
+\bibitem[Garc\'{i}a-Mart\'{i}nez et~al.(2017)Garc\'{i}a-Mart\'{i}nez, Caglayan,
+  Aransa, Bardet, Bougares, and Barrault]{2017arXiv170704499G}
+M.~Garc\'{i}a-Mart\'{i}nez, O.~Caglayan, W.~Aransa, A.~Bardet, F.~Bougares, and
+  L.~Barrault.
+\newblock Lium machine translation systems for {WMT17} news translation task.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 288--295, Copenhagen, Denmark, Sept. 2017. Association
+  for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W17-4726}.
+
+\bibitem[Garg et~al.(2020)Garg, Vu, and Moschitti]{garg2019tanda}
+S.~Garg, T.~Vu, and A.~Moschitti.
+\newblock Tanda: Transfer and adapt pre-trained transformer models for answer
+  sentence selection.
+\newblock In \emph{Proceedings of AAAI Conference on Artificial Intelligence},
+  2020.
+\newblock URL \url{https://arxiv.org/abs/1911.04118}.
+
+\bibitem[Gehring et~al.(2017)Gehring, Auli, Grangier, Yarats, and
+  Dauphin]{pmlr-v70-gehring17a}
+J.~Gehring, M.~Auli, D.~Grangier, D.~Yarats, and Y.~N. Dauphin.
+\newblock Convolutional sequence to sequence learning.
+\newblock In D.~Precup and Y.~W. Teh, editors, \emph{Proceedings of the 34th
+  International Conference on Machine Learning}, volume~70 of \emph{Proceedings
+  of Machine Learning Research}, pages 1243--1252, International Convention
+  Centre, Sydney, Australia, 06--11 Aug 2017. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v70/gehring17a.html}.
+
+\bibitem[Ghader and Monz(2017)]{ghader-monz-2017-attention}
+H.~Ghader and C.~Monz.
+\newblock What does attention in neural machine translation pay attention to?
+\newblock In \emph{Proceedings of the Eighth International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 30--39, Taipei,
+  Taiwan, Nov. 2017. Asian Federation of Natural Language Processing.
+\newblock URL \url{https://www.aclweb.org/anthology/I17-1004}.
+
+\bibitem[Ghader and Monz(2019)]{ghader-monz-2019-intrinsic}
+H.~Ghader and C.~Monz.
+\newblock An intrinsic nearest neighbor analysis of neural machine translation
+  architectures.
+\newblock In \emph{Proceedings of Machine Translation Summit XVII Volume 1:
+  Research Track}, pages 107--117, Dublin, Ireland, Aug. 2019. European
+  Association for Machine Translation.
+\newblock URL \url{https://www.aclweb.org/anthology/W19-6611}.
+
+\bibitem[Gharbieh et~al.(2016)Gharbieh, Bhavsar, and Cook]{gharbieh2016word}
+W.~Gharbieh, V.~C. Bhavsar, and P.~Cook.
+\newblock A word embedding approach to identifying verb--noun idiomatic
+  combinations.
+\newblock In \emph{Proceedings of the 12th Workshop on Multiword Expressions
+  MWE 2016}, page 112, 2016.
+\newblock URL \url{https://www.aclweb.org/anthology/W/W16/W16-1817}.
+
+\bibitem[Goodfellow et~al.(2015)Goodfellow, Shlens, and
+  Szegedy]{goodfellow6572explaining}
+I.~J. Goodfellow, J.~Shlens, and C.~Szegedy.
+\newblock Explaining and harnessing adversarial examples.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2015.
+\newblock URL \url{https://arxiv.org/abs/1412.6572}.
+
+\bibitem[Graves et~al.(2014)Graves, Wayne, and Danihelka]{Graves2014NeuralTM}
+A.~Graves, G.~Wayne, and I.~Danihelka.
+\newblock Neural {T}uring machines.
+\newblock \emph{ArXiv}, abs/1410.5401, 2014.
+\newblock URL \url{https://arxiv.org/abs/1410.5401}.
+
+\bibitem[Gu et~al.(2018{\natexlab{a}})Gu, Hassan, Devlin, and
+  Li]{gu2018universal}
+J.~Gu, H.~Hassan, J.~Devlin, and V.~O. Li.
+\newblock Universal neural machine translation for extremely low resource
+  languages.
+\newblock \emph{arXiv preprint arXiv:1802.05368}, 2018{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/1802.05368}.
+
+\bibitem[Gu et~al.(2018{\natexlab{b}})Gu, Wang, Chen, Li, and
+  Cho]{gu-etal-2018-meta}
+J.~Gu, Y.~Wang, Y.~Chen, V.~O.~K. Li, and K.~Cho.
+\newblock Meta-learning for low-resource neural machine translation.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3622--3631, Brussels, Belgium, Oct.
+  2018{\natexlab{b}}. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1398}.
+
+\bibitem[Gulcehre et~al.(2017)Gulcehre, Firat, Xu, Cho, and
+  Bengio]{gulcehre2017integrating}
+C.~Gulcehre, O.~Firat, K.~Xu, K.~Cho, and Y.~Bengio.
+\newblock On integrating a language model into neural machine translation.
+\newblock \emph{Computer Speech \& Language}, 45:\penalty0 137--148, 2017.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/abs/pii/S0885230816301395}.
+
+\bibitem[{Ha} et~al.(2017){Ha}, {Niehues}, and {Waibel}]{2017arXiv171107893H}
+T.-L. {Ha}, J.~{Niehues}, and A.~{Waibel}.
+\newblock Effective strategies in zero-shot neural machine translation.
+\newblock \emph{ArXiv e-prints}, Nov. 2017.
+\newblock URL
+  \url{https://ui.adsabs.harvard.edu/abs/2017arXiv171107893H/abstract}.
+
+\bibitem[Halevy et~al.(2009)Halevy, Norvig, and
+  Pereira]{Halevy:2009:UED:1525642.1525689}
+A.~Halevy, P.~Norvig, and F.~Pereira.
+\newblock The unreasonable effectiveness of data.
+\newblock \emph{IEEE Intelligent Systems}, 24\penalty0 (2):\penalty0 8--12,
+  Mar. 2009.
+\newblock URL \url{http://dx.doi.org/10.1109/MIS.2009.36}.
+
+\bibitem[Hamp and Feldweg(1997)]{hamp-feldweg-1997-germanet}
+B.~Hamp and H.~Feldweg.
+\newblock {G}erma{N}et - a lexical-semantic net for {G}erman.
+\newblock In \emph{Automatic Information Extraction and Building of Lexical
+  Semantic Resources for {NLP} Applications}, 1997.
+\newblock URL \url{https://www.aclweb.org/anthology/W97-0802}.
+
+\bibitem[Hassan and Mihalcea(2011)]{hassan2011semantic}
+S.~Hassan and R.~Mihalcea.
+\newblock Semantic relatedness using salient semantic analysis.
+\newblock In \emph{Proceedings of AAAI Conference on Artificial Intelligence},
+  2011.
+\newblock URL
+  \url{https://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/view/3616/3972}.
+
+\bibitem[He et~al.(2016{\natexlab{a}})He, Xia, Qin, Wang, Yu, Liu, and
+  Ma]{NIPS2016_6469}
+D.~He, Y.~Xia, T.~Qin, L.~Wang, N.~Yu, T.-Y. Liu, and W.-Y. Ma.
+\newblock Dual learning for machine translation.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, \emph{Advances in Neural Information Processing Systems 29}, pages
+  820--828. Curran Associates, Inc., 2016{\natexlab{a}}.
+\newblock URL
+  \url{http://papers.nips.cc/paper/6469-dual-learning-for-machine-translation}.
+
+\bibitem[He et~al.(2016{\natexlab{b}})He, Zhang, Ren, and Sun]{He2016DeepRL}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock \emph{2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 770--778, 2016{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/1512.03385}.
+
+\bibitem[Henrich and Hinrichs(2010)]{HENRICH10.264}
+V.~Henrich and E.~Hinrichs.
+\newblock {G}ern{E}di{T} - the {G}erma{N}et editing tool.
+\newblock In \emph{Proceedings of the Seventh International Conference on
+  Language Resources and Evaluation ({LREC}'10)}, Valletta, Malta, May 2010.
+  European Language Resources Association (ELRA).
+\newblock URL
+  \url{http://www.lrec-conf.org/proceedings/lrec2010/pdf/264\%5FPaper.pdf}.
+
+\bibitem[Hill et~al.(2015)Hill, Reichart, and Korhonen]{hill-etal-2015-simlex}
+F.~Hill, R.~Reichart, and A.~Korhonen.
+\newblock {S}im{L}ex-999: Evaluating semantic models with (genuine) similarity
+  estimation.
+\newblock \emph{Computational Linguistics}, 41\penalty0 (4):\penalty0 665--695,
+  Dec. 2015.
+\newblock URL \url{https://www.aclweb.org/anthology/J15-4004}.
+
+\bibitem[Hochreiter(1998)]{10.1142/S0218488598000094}
+S.~Hochreiter.
+\newblock The vanishing gradient problem during learning recurrent neural nets
+  and problem solutions.
+\newblock \emph{International Journal of Uncertainty Fuzziness and
+  Knowledge-Based Systems}, 6\penalty0 (2):\penalty0 107--116, Apr. 1998.
+\newblock URL \url{https://doi.org/10.1142/S0218488598000094}.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{hochreiter1997long}
+S.~Hochreiter and J.~Schmidhuber.
+\newblock Long short-term memory.
+\newblock \emph{Neural Computation}, 9\penalty0 (8):\penalty0 1735--1780, 1997.
+\newblock URL
+  \url{https://www.mitpressjournals.org/doi/abs/10.1162/neco.1997.9.8.1735}.
+
+\bibitem[Huang et~al.(2012)Huang, Socher, Manning, and Ng]{huang2012improving}
+E.~Huang, R.~Socher, C.~Manning, and A.~Ng.
+\newblock Improving word representations via global context and multiple word
+  prototypes.
+\newblock In \emph{Proceedings of the 50th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 873--882, Jeju
+  Island, Korea, July 2012. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P12-1092}.
+
+\bibitem[Huang et~al.(2019)Huang, Cheng, Bapna, Firat, Chen, Chen, Lee, Ngiam,
+  Le, Wu, and Chen]{huang2018gpipe}
+Y.~Huang, Y.~Cheng, A.~Bapna, O.~Firat, D.~Chen, M.~Chen, H.~Lee, J.~Ngiam,
+  Q.~V. Le, Y.~Wu, and z.~Chen.
+\newblock Gpipe: Efficient training of giant neural networks using pipeline
+  parallelism.
+\newblock In \emph{Advances in Neural Information Processing Systems 32}, pages
+  103--112. Curran Associates, Inc., 2019.
+\newblock URL
+  \url{http://papers.nips.cc/paper/8305-gpipe-efficient-training-of-giant-neural-networks-using-pipeline-parallelism}.
+
+\bibitem[Hupkes et~al.(2020)Hupkes, Dankers, Mul, and Bruni]{ijcai2020-708}
+D.~Hupkes, V.~Dankers, M.~Mul, and E.~Bruni.
+\newblock Compositionality decomposed: How do neural networks generalise?
+  (extended abstract).
+\newblock In \emph{Proceedings of the Twenty-Ninth International Joint
+  Conference on Artificial Intelligence, {IJCAI-20}}, pages 5065--5069.
+  International Joint Conferences on Artificial Intelligence Organization, 7
+  2020.
+\newblock URL \url{https://doi.org/10.24963/ijcai.2020/708}.
+
+\bibitem[Hurtado~Bodell et~al.(2019)Hurtado~Bodell, Arvidsson, and
+  Magnusson]{hurtado-bodell-etal-2019-interpretable}
+M.~Hurtado~Bodell, M.~Arvidsson, and M.~Magnusson.
+\newblock Interpretable word embeddings via informative priors.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 6323--6329, Hong Kong,
+  China, Nov. 2019. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D19-1661}.
+
+\bibitem[Ide and V{\'e}ronis(1998)]{ide-veronis-1998-introduction}
+N.~Ide and J.~V{\'e}ronis.
+\newblock Introduction to the special issue on word sense disambiguation: The
+  state of the art.
+\newblock \emph{Computational Linguistics}, 24\penalty0 (1):\penalty0 1--40,
+  1998.
+\newblock URL \url{https://www.aclweb.org/anthology/J98-1001}.
+
+\bibitem[Inoue(2018)]{inoue2018data}
+H.~Inoue.
+\newblock Data augmentation by pairing samples for images classification.
+\newblock \emph{arXiv preprint arXiv:1801.02929}, 2018.
+\newblock URL \url{https://arxiv.org/abs/1801.02929}.
+
+\bibitem[Isabelle et~al.(2017)Isabelle, Cherry, and
+  Foster]{isabelle2017challenge}
+P.~Isabelle, C.~Cherry, and G.~Foster.
+\newblock A challenge set approach to evaluating machine translation.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2486--2496, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D17-1263}.
+
+\bibitem[Jacquemin(1994)]{Jacquemin1994ATC}
+C.~Jacquemin.
+\newblock A temporal connectionist approach to natural language.
+\newblock \emph{SIGART Bull.}, 5\penalty0 (3):\penalty0 12--22, July 1994.
+\newblock URL \url{https://doi.org/10.1145/181911.181913}.
+
+\bibitem[Janssen(2001)]{DBLP:journals/jolli/Janssen01}
+T.~M.~V. Janssen.
+\newblock Frege, contextuality and compositionality.
+\newblock \emph{Journal of Logic, Language and Information}, 10\penalty0
+  (1):\penalty0 115--136, 2001.
+\newblock URL \url{https://doi.org/10.1023/A:1026542332224}.
+
+\bibitem[Jean et~al.(2015)Jean, Cho, Memisevic, and
+  Bengio]{jean-etal-2015-using}
+S.~Jean, K.~Cho, R.~Memisevic, and Y.~Bengio.
+\newblock On using very large target vocabulary for neural machine translation.
+\newblock In \emph{Proceedings of the 53rd Annual Meeting of the Association
+  for Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 1--10, Beijing,
+  China, July 2015. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P15-1001}.
+
+\bibitem[Jelinek(1998)]{jelinek98}
+F.~Jelinek.
+\newblock \emph{Statistical Methods for Speech Recognition (Language, Speech,
+  and Communication)}.
+\newblock The MIT Press, Jan. 1998.
+\newblock URL
+  \url{http://www.amazon.fr/exec/obidos/ASIN/0262100665/citeulike04-21}.
+
+\bibitem[Johnson et~al.(2017)Johnson, Schuster, Le, Krikun, Wu, Chen, Thorat,
+  Vi{\'e}gas, Wattenberg, Corrado, Hughes, and Dean]{johnson-etal-2017-googles}
+M.~Johnson, M.~Schuster, Q.~V. Le, M.~Krikun, Y.~Wu, Z.~Chen, N.~Thorat,
+  F.~Vi{\'e}gas, M.~Wattenberg, G.~Corrado, M.~Hughes, and J.~Dean.
+\newblock {G}oogle{'}s multilingual neural machine translation system: Enabling
+  zero-shot translation.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  5:\penalty0 339--351, 2017.
+\newblock URL \url{https://www.aclweb.org/anthology/Q17-1024}.
+
+\bibitem[Jordan(2011)]{Jordan2011THEEO}
+M.~I. Jordan.
+\newblock The era of big data.
+\newblock \emph{The official bulletin of the International Society for Bayesian
+  Analysis}, 18\penalty0 (2), 2011.
+\newblock URL \url{http://jfsowa.com/ikl/Jordan11.pdf}.
+
+\bibitem[Joshi et~al.(2020)Joshi, Chen, Liu, Weld, Zettlemoyer, and
+  Levy]{mandar2020}
+M.~Joshi, D.~Chen, Y.~Liu, D.~S. Weld, L.~Zettlemoyer, and O.~Levy.
+\newblock {SpanBERT}: Improving pre-training by representing and predicting
+  spans.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  2020.
+\newblock URL \url{https://arxiv.org/abs/1907.10529}.
+
+\bibitem[Kaiser et~al.(2017)Kaiser, Nachum, Roy, and Bengio]{45801}
+L.~Kaiser, O.~Nachum, A.~Roy, and S.~Bengio.
+\newblock Learning to remember rare events.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2017.
+\newblock URL \url{https://openreview.net/pdf?id=SJTQLdqlg}.
+
+\bibitem[Kajiwara and Komachi(2016)]{kajiwara-komachi-2016-building}
+T.~Kajiwara and M.~Komachi.
+\newblock Building a monolingual parallel corpus for text simplification using
+  sentence similarity based on alignment between word embeddings.
+\newblock In \emph{Proceedings of {COLING} 2016, the 26th International
+  Conference on Computational Linguistics: Technical Papers}, pages 1147--1158,
+  Osaka, Japan, Dec. 2016. The COLING 2016 Organizing Committee.
+\newblock URL \url{https://www.aclweb.org/anthology/C16-1109}.
+
+\bibitem[Karras et~al.(2019)Karras, Laine, and Aila]{karras2019style}
+T.~Karras, S.~Laine, and T.~Aila.
+\newblock A style-based generator architecture for generative adversarial
+  networks.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 4401--4410, 2019.
+\newblock URL \url{https://arxiv.org/abs/1812.04948}.
+
+\bibitem[Katz and Giesbrecht(2006)]{katz-giesbrecht-2006-automatic}
+G.~Katz and E.~Giesbrecht.
+\newblock Automatic identification of non-compositional multi-word expressions
+  using latent semantic analysis.
+\newblock In \emph{Proceedings of the Workshop on Multiword Expressions:
+  Identifying and Exploiting Underlying Properties}, pages 12--19, Sydney,
+  Australia, July 2006. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W06-1203}.
+
+\bibitem[Khayrallah and Koehn(2018)]{W18-2709}
+H.~Khayrallah and P.~Koehn.
+\newblock On the impact of various types of noise on neural machine
+  translation.
+\newblock In \emph{Proceedings of the 2nd Workshop on Neural Machine
+  Translation and Generation}, pages 74--83. Association for Computational
+  Linguistics, 2018.
+\newblock URL \url{http://aclweb.org/anthology/W18-2709}.
+
+\bibitem[Kilgarriff(1997)]{journals/lre/Kilgarriff97}
+A.~Kilgarriff.
+\newblock I don't believe in word senses.
+\newblock \emph{Computers and the Humanities}, 31\penalty0 (2):\penalty0
+  91--113, 1997.
+\newblock URL \url{https://doi.org/10.1023/A:1000583911091}.
+
+\bibitem[Kingma and Ba(2015)]{kingma2014adam}
+D.~P. Kingma and J.~L. Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock In \emph{Proceedings of the International Conference on Learning
+  Representations (ICLR)}, 2015.
+\newblock URL \url{https://arxiv.org/abs/1412.6980}.
+
+\bibitem[Kiros et~al.(2015)Kiros, Zhu, Salakhutdinov, Zemel, Urtasun, Torralba,
+  and Fidler]{NIPS2015_5950}
+R.~Kiros, Y.~Zhu, R.~R. Salakhutdinov, R.~Zemel, R.~Urtasun, A.~Torralba, and
+  S.~Fidler.
+\newblock Skip-thought vectors.
+\newblock In C.~Cortes, N.~D. Lawrence, D.~D. Lee, M.~Sugiyama, and R.~Garnett,
+  editors, \emph{Advances in Neural Information Processing Systems 28}, pages
+  3294--3302. Curran Associates, Inc., 2015.
+\newblock URL \url{http://papers.nips.cc/paper/5950-skip-thought-vectors}.
+
+\bibitem[Kishida(2005)]{kishida2005property}
+K.~Kishida.
+\newblock \emph{Property of average precision and its generalization: An
+  examination of evaluation indicator for information retrieval experiments}.
+\newblock National Institute of Informatics Tokyo, Japan, 2005.
+\newblock URL
+  \url{https://www.nii.ac.jp/TechReports/public\%5Fhtml/05-014E.pdf}.
+
+\bibitem[Klein et~al.(2017)Klein, Kim, Deng, Senellart, and Rush]{2017opennmt}
+G.~Klein, Y.~Kim, Y.~Deng, J.~Senellart, and A.~Rush.
+\newblock {OpenNMT}: Open-source toolkit for neural machine translation.
+\newblock In \emph{Proceedings of ACL 2017, System Demonstrations}, pages
+  67--72. Association for Computational Linguistics, 2017.
+\newblock URL \url{http://www.aclweb.org/anthology/P17-4012}.
+
+\bibitem[Klyueva et~al.(2017)Klyueva, Doucet, and
+  Straka]{klyueva-etal-2017-neural}
+N.~Klyueva, A.~Doucet, and M.~Straka.
+\newblock Neural networks for multi-word expression detection.
+\newblock In \emph{Proceedings of the 13th Workshop on Multiword Expressions
+  ({MWE} 2017)}, pages 60--65, Valencia, Spain, Apr. 2017. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-1707}.
+
+\bibitem[Ko{\c{c}} et~al.(2018)Ko{\c{c}}, Utlu, Senel, and
+  {\"{O}}zaktas]{DBLP:journals/corr/abs-1807-07279}
+A.~Ko{\c{c}}, I.~Utlu, L.~K. Senel, and H.~M. {\"{O}}zaktas.
+\newblock Imparting interpretability to word embeddings.
+\newblock \emph{CoRR}, abs/1807.07279, 2018.
+\newblock URL \url{http://arxiv.org/abs/1807.07279}.
+
+\bibitem[Koehn(2005)]{koehn2005europarl}
+P.~Koehn.
+\newblock Europarl: A parallel corpus for statistical machine translation.
+\newblock In \emph{MT Summit}, volume~5, pages 79--86. Citeseer, 2005.
+\newblock URL
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.459.5497\&rep=rep1\&type=pdf}.
+
+\bibitem[Koehn and Knowles(2017)]{koehn2017six}
+P.~Koehn and R.~Knowles.
+\newblock Six challenges for neural machine translation.
+\newblock In \emph{Proceedings of the First Workshop on Neural Machine
+  Translation}, pages 28--39, Vancouver, Aug. 2017. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-3204}.
+
+\bibitem[Koehn et~al.(2003)Koehn, Och, and Marcu]{koehn-etal-2003-statistical}
+P.~Koehn, F.~J. Och, and D.~Marcu.
+\newblock Statistical phrase-based translation.
+\newblock In \emph{Proceedings of the 2003 Human Language Technology Conference
+  of the North {A}merican Chapter of the Association for Computational
+  Linguistics}, pages 127--133, 2003.
+\newblock URL \url{https://www.aclweb.org/anthology/N03-1017}.
+
+\bibitem[Koehn et~al.(2007)Koehn, Hoang, Birch, Callison-Burch, Federico,
+  Bertoldi, Cowan, Shen, Moran, Zens, Dyer, Bojar, Constantin, and
+  Herbst]{koehn-etal-2007-moses}
+P.~Koehn, H.~Hoang, A.~Birch, C.~Callison-Burch, M.~Federico, N.~Bertoldi,
+  B.~Cowan, W.~Shen, C.~Moran, R.~Zens, C.~Dyer, O.~Bojar, A.~Constantin, and
+  E.~Herbst.
+\newblock {M}oses: Open source toolkit for statistical machine translation.
+\newblock In \emph{Proceedings of the 45th Annual Meeting of the Association
+  for Computational Linguistics Companion Volume Proceedings of the Demo and
+  Poster Sessions}, pages 177--180, Prague, Czech Republic, June 2007.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P07-2045}.
+
+\bibitem[K{\"o}vecses and Szab{\'o}(1996)]{doi:10.1093/applin/17.3.326}
+Z.~K{\"o}vecses and P.~Szab{\'o}.
+\newblock Idioms: A view from cognitive semantics.
+\newblock \emph{Applied Linguistics}, 17\penalty0 (3):\penalty0 326--355, 09
+  1996.
+\newblock URL \url{https://doi.org/10.1093/applin/17.3.326}.
+
+\bibitem[Kremer et~al.(2014)Kremer, Erk, Pad\'{o}, and
+  Thater]{kremer2014substitutes}
+G.~Kremer, K.~Erk, S.~Pad\'{o}, and S.~Thater.
+\newblock What substitutes tell us - analysis of an "all-words" lexical
+  substitution corpus.
+\newblock In \emph{Proceedings of the 14th Conference of the European Chapter
+  of the Association for Computational Linguistics}, pages 540--549,
+  Gothenburg, Sweden, Apr. 2014. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/E14-1057}.
+
+\bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{NIPS2012_4824}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, \emph{Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+\newblock URL
+  \url{http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks}.
+
+\bibitem[Kynk\"{a}\"{a}nniemi et~al.(2019)Kynk\"{a}\"{a}nniemi, Karras, Laine,
+  Lehtinen, and Aila]{kynkaanniemi2019improved}
+T.~Kynk\"{a}\"{a}nniemi, T.~Karras, S.~Laine, J.~Lehtinen, and T.~Aila.
+\newblock Improved precision and recall metric for assessing generative models.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems 32}, pages 3927--3936. Curran Associates,
+  Inc., 2019.
+\newblock URL
+  \url{http://papers.nips.cc/paper/8648-improved-precision-and-recall-metric-for-assessing-generative-models}.
+
+\bibitem[Lake and Baroni(2017)]{DBLP:journals/corr/abs-1711-00350}
+B.~M. Lake and M.~Baroni.
+\newblock Still not systematic after all these years: On the compositional
+  skills of sequence-to-sequence recurrent networks.
+\newblock \emph{CoRR}, abs/1711.00350, 2017.
+\newblock URL \url{http://arxiv.org/abs/1711.00350}.
+
+\bibitem[Lake and Baroni(2018)]{886a37b5fc2f43449e4bca3b5557e3ae}
+B.~M. Lake and M.~Baroni.
+\newblock Generalization without systematicity: On the compositional skills of
+  sequence-to-sequence recurrent networks.
+\newblock In J.~Dy and A.~Krause, editors, \emph{35th International Conference
+  on Machine Learning, ICML 2018}, 35th International Conference on Machine
+  Learning, ICML 2018, pages 4487--4499. International Machine Learning Society
+  (IMLS), Jan. 2018.
+\newblock URL \url{https://arxiv.org/abs/1711.00350}.
+\newblock 35th International Conference on Machine Learning, ICML 2018 ;
+  Conference date: 10-07-2018 Through 15-07-2018.
+
+\bibitem[Lakew et~al.(2018)Lakew, Cettolo, and
+  Federico]{lakew-etal-2018-comparison}
+S.~M. Lakew, M.~Cettolo, and M.~Federico.
+\newblock A comparison of transformer and recurrent neural networks on
+  multilingual neural machine translation.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 641--652, Santa Fe, New Mexico, USA, Aug.
+  2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/C18-1054}.
+
+\bibitem[Lambert et~al.(2011)Lambert, Schwenk, Servan, and
+  Abdul-Rauf]{Lambert:2011:ITM:2132960.2132997}
+P.~Lambert, H.~Schwenk, C.~Servan, and S.~Abdul-Rauf.
+\newblock Investigations on translation model adaptation using monolingual
+  data.
+\newblock In \emph{Proceedings of the Sixth Workshop on Statistical Machine
+  Translation}, WMT11, pages 284--293, Stroudsburg, PA, USA, 2011. Association
+  for Computational Linguistics.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2132960.2132997}.
+
+\bibitem[Lample et~al.(2018{\natexlab{a}})Lample, Conneau, Denoyer, and
+  Ranzato]{lample2018unsupervised}
+G.~Lample, A.~Conneau, L.~Denoyer, and M.~Ranzato.
+\newblock Unsupervised machine translation using monolingual corpora only.
+\newblock In \emph{6th International Conference on Learning Representations,
+  {ICLR} 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track
+  Proceedings}, 2018{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=rkYTTf-AZ}.
+
+\bibitem[Lample et~al.(2018{\natexlab{b}})Lample, Ott, Conneau, Denoyer, and
+  Ranzato]{lample-etal-2018-phrase}
+G.~Lample, M.~Ott, A.~Conneau, L.~Denoyer, and M.~Ranzato.
+\newblock Phrase-based {\&} neural unsupervised machine translation.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 5039--5049, Brussels, Belgium, Oct.
+  2018{\natexlab{b}}. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1549}.
+
+\bibitem[Lan et~al.(2020)Lan, Chen, Goodman, Gimpel, Sharma, and
+  Soricut]{Lan2020ALBERT:}
+Z.~Lan, M.~Chen, S.~Goodman, K.~Gimpel, P.~Sharma, and R.~Soricut.
+\newblock {ALBERT}: A lite {BERT} for self-supervised learning of language
+  representations.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock URL \url{https://openreview.net/forum?id=H1eA7AEtvS}.
+
+\bibitem[Lau et~al.(2014)Lau, Cook, McCarthy, Gella, and
+  Baldwin]{lau2014learning}
+J.~H. Lau, P.~Cook, D.~McCarthy, S.~Gella, and T.~Baldwin.
+\newblock Learning word sense distributions, detecting unattested senses and
+  identifying novel senses using topic models.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 259--270,
+  Baltimore, Maryland, June 2014. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P14-1025}.
+
+\bibitem[Lee et~al.(2017)Lee, Cho, and Hofmann]{lee-etal-2017-fully}
+J.~Lee, K.~Cho, and T.~Hofmann.
+\newblock Fully character-level neural machine translation without explicit
+  segmentation.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  5:\penalty0 365--378, 2017.
+\newblock URL \url{https://www.aclweb.org/anthology/Q17-1026}.
+
+\bibitem[Lee et~al.(2018)Lee, Firat, Agarwal, Fannjiang, and Sussillo]{halluc}
+K.~Lee, O.~Firat, A.~Agarwal, C.~Fannjiang, and D.~Sussillo.
+\newblock Hallucinations in neural machine translation.
+\newblock In \emph{Neural Information Processing Systems (NeurIPS) Workshop on
+  Interpretability and Robustness for Audio, Speech, and Language}. NeurIPS,
+  2018.
+\newblock URL \url{https://openreview.net/pdf?id=SkxJ-309FQ}.
+
+\bibitem[Lembersky et~al.(2011)Lembersky, Ordan, and
+  Wintner]{lembersky-etal-2011-language}
+G.~Lembersky, N.~Ordan, and S.~Wintner.
+\newblock Language models for machine translation: Original vs. translated
+  texts.
+\newblock In \emph{Proceedings of the 2011 Conference on Empirical Methods in
+  Natural Language Processing}, pages 363--374, Edinburgh, Scotland, UK., July
+  2011. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D11-1034}.
+
+\bibitem[Levenshtein(1966)]{levenshtein1966binary}
+V.~I. Levenshtein.
+\newblock Binary codes capable of correcting deletions, insertions, and
+  reversals.
+\newblock \emph{Soviet physics doklady}, 10\penalty0 (8):\penalty0 707--710,
+  1966.
+\newblock URL \url{https://nymity.ch/sybilhunting/pdf/Levenshtein1966a.pdf}.
+
+\bibitem[Levy and Goldberg(2014)]{levy2014dependency}
+O.~Levy and Y.~Goldberg.
+\newblock Dependency-based word embeddings.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, pages 302--308,
+  Baltimore, Maryland, June 2014. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P14-2050}.
+
+\bibitem[Levy et~al.(2015)Levy, Goldberg, and Dagan]{levy2015improving}
+O.~Levy, Y.~Goldberg, and I.~Dagan.
+\newblock Improving distributional similarity with lessons learned from word
+  embeddings.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  3:\penalty0 211--225, 2015.
+\newblock URL \url{https://transacl.org/ojs/index.php/tacl/article/view/570}.
+
+\bibitem[Lewis et~al.(2020)Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy,
+  Stoyanov, and Zettlemoyer]{lewis2019bart}
+M.~Lewis, Y.~Liu, N.~Goyal, M.~Ghazvininejad, A.~Mohamed, O.~Levy, V.~Stoyanov,
+  and L.~Zettlemoyer.
+\newblock {BART}: Denoising sequence-to-sequence pre-training for natural
+  language generation, translation, and comprehension.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 7871--7880, Online, July 2020.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.703}.
+
+\bibitem[Li et~al.(2020)Li, Liu, Zhu, Zhao, and
+  Shi]{DBLP:journals/corr/abs-2004-02181}
+G.~Li, L.~Liu, C.~Zhu, T.~Zhao, and S.~Shi.
+\newblock Detecting and understanding generalization barriers for neural
+  machine translation.
+\newblock \emph{CoRR}, abs/2004.02181, 2020.
+\newblock URL \url{https://arxiv.org/abs/2004.02181}.
+
+\bibitem[Li and Jurafsky(2015)]{li-jurafsky:2015:EMNLP}
+J.~Li and D.~Jurafsky.
+\newblock Do multi-sense embeddings improve natural language understanding?
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1722--1732, Lisbon, Portugal, Sept. 2015.
+  Association for Computational Linguistics.
+\newblock URL \url{http://aclweb.org/anthology/D15-1200}.
+
+\bibitem[Li et~al.(2010)Li, Roth, and Sporleder]{li-etal-2010-topic}
+L.~Li, B.~Roth, and C.~Sporleder.
+\newblock Topic models for word sense disambiguation and token-based idiom
+  detection.
+\newblock In \emph{Proceedings of the 48th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1138--1147, Uppsala, Sweden, July 2010.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P10-1116}.
+
+\bibitem[Li et~al.(2019)Li, Michel, Anastasopoulos, Belinkov, Durrani, Firat,
+  Koehn, Neubig, Pino, and Sajjad]{li-EtAl:2019:WMT1}
+X.~Li, P.~Michel, A.~Anastasopoulos, Y.~Belinkov, N.~Durrani, O.~Firat,
+  P.~Koehn, G.~Neubig, J.~Pino, and H.~Sajjad.
+\newblock Findings of the first shared task on machine translation robustness.
+\newblock In \emph{Proceedings of the Fourth Conference on Machine Translation
+  (Volume 2: Shared Task Papers, Day 1)}, pages 91--102, Florence, Italy, Aug.
+  2019. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W19-5303}.
+
+\bibitem[Lin(2004)]{lin-2004-rouge}
+C.-Y. Lin.
+\newblock {ROUGE}: A package for automatic evaluation of summaries.
+\newblock In \emph{Text Summarization Branches Out}, pages 74--81, Barcelona,
+  Spain, July 2004. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W04-1013}.
+
+\bibitem[Linzen et~al.(2016)Linzen, Dupoux, and
+  Goldberg]{linzen-etal-2016-assessing}
+T.~Linzen, E.~Dupoux, and Y.~Goldberg.
+\newblock Assessing the ability of {LSTM}s to learn syntax-sensitive
+  dependencies.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  4:\penalty0 521--535, 2016.
+\newblock URL \url{https://www.aclweb.org/anthology/Q16-1037}.
+
+\bibitem[Liu et~al.(2016)Liu, Anguelov, Erhan, Szegedy, Reed, Fu, and
+  Berg]{liu2016ssd}
+W.~Liu, D.~Anguelov, D.~Erhan, C.~Szegedy, S.~Reed, C.-Y. Fu, and A.~C. Berg.
+\newblock Ssd: Single shot multibox detector.
+\newblock In \emph{European conference on computer vision}, pages 21--37.
+  Springer, 2016.
+\newblock URL
+  \url{https://link.springer.com/chapter/10.1007/978-3-319-46448-0\%5F2}.
+
+\bibitem[Luong et~al.(2013)Luong, Socher, and Manning]{luong-etal-2013-better}
+T.~Luong, R.~Socher, and C.~Manning.
+\newblock Better word representations with recursive neural networks for
+  morphology.
+\newblock In \emph{Proceedings of the Seventeenth Conference on Computational
+  Natural Language Learning}, pages 104--113, Sofia, Bulgaria, Aug. 2013.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W13-3512}.
+
+\bibitem[Luong et~al.(2015{\natexlab{a}})Luong, Pham, and
+  Manning]{luong:2015:EMNLP}
+T.~Luong, H.~Pham, and C.~D. Manning.
+\newblock Effective approaches to attention-based neural machine translation.
+\newblock In \emph{Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1412--1421, Lisbon, Portugal, Sept.
+  2015{\natexlab{a}}. Association for Computational Linguistics.
+\newblock URL \url{http://aclweb.org/anthology/D15-1166}.
+
+\bibitem[Luong et~al.(2015{\natexlab{b}})Luong, Sutskever, Le, Vinyals, and
+  Zaremba]{luong2014addressing}
+T.~Luong, I.~Sutskever, Q.~Le, O.~Vinyals, and W.~Zaremba.
+\newblock Addressing the rare word problem in neural machine translation.
+\newblock In \emph{Proceedings of the 53rd Annual Meeting of the Association
+  for Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 11--19, Beijing,
+  China, July 2015{\natexlab{b}}. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P15-1002}.
+
+\bibitem[Markantonatou et~al.(2017)Markantonatou, Ramisch, Savary, and
+  Vincze]{markantonatou2017proceedings}
+S.~Markantonatou, C.~Ramisch, A.~Savary, and V.~Vincze, editors.
+\newblock \emph{Proceedings of the 13th Workshop on Multiword Expressions
+  ({MWE} 2017)}, Valencia, Spain, Apr. 2017. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-1700}.
+
+\bibitem[Marton et~al.(2009)Marton, Callison-Burch, and
+  Resnik]{Marton:2009:ISM:1699510.1699560}
+Y.~Marton, C.~Callison-Burch, and P.~Resnik.
+\newblock Improved statistical machine translation using monolingually-derived
+  paraphrases.
+\newblock In \emph{Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing}, pages 381--390, Singapore, Aug. 2009.
+  Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/D/D09/D09-1040}.
+
+\bibitem[McCarthy and Navigli(2007)]{mccarthy2007semeval}
+D.~McCarthy and R.~Navigli.
+\newblock Semeval-2007 task 10: English lexical substitution task.
+\newblock In \emph{Proceedings of the Fourth International Workshop on Semantic
+  Evaluations (SemEval-2007)}, pages 48--53, Prague, Czech Republic, June 2007.
+  Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/S/S07/S07-1009}.
+
+\bibitem[Melamed(1998)]{Melamed98manualannotation}
+I.~D. Melamed.
+\newblock \emph{Manual annotation of translational equivalence: The Blinker
+  project}.
+\newblock University of Pennsylvania, 1998.
+\newblock URL \url{https://arxiv.org/abs/cmp-lg/9805005}.
+
+\bibitem[Melamud et~al.(2015)Melamud, Levy, and Dagan]{melamud2015simple}
+O.~Melamud, O.~Levy, and I.~Dagan.
+\newblock A simple word embedding model for lexical substitution.
+\newblock In \emph{Proceedings of the 1st Workshop on Vector Space Modeling for
+  Natural Language Processing}, pages 1--7, Denver, Colorado, June 2015.
+  Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W15-1501}.
+
+\bibitem[Michel and Neubig(2018)]{D18-1050}
+P.~Michel and G.~Neubig.
+\newblock Mtnt: A testbed for machine translation of noisy text.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 543--553. Association for Computational
+  Linguistics, 2018.
+\newblock URL \url{http://aclweb.org/anthology/D18-1050}.
+
+\bibitem[Mikolov et~al.(2013{\natexlab{a}})Mikolov, Chen, Corrado, and
+  Dean]{mikolov2013efficient}
+T.~Mikolov, K.~Chen, G.~Corrado, and J.~Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock \emph{arXiv preprint arXiv:1301.3781}, 2013{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/1301.3781}.
+
+\bibitem[Mikolov et~al.(2013{\natexlab{b}})Mikolov, Sutskever, Chen, Corrado,
+  and Dean]{mikolov2013distributed}
+T.~Mikolov, I.~Sutskever, K.~Chen, G.~S. Corrado, and J.~Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In \emph{Advances in Neural Information Processing Systems 26}, pages
+  3111--3119. Curran Associates, Inc., 2013{\natexlab{b}}.
+\newblock URL
+  \url{http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality}.
+
+\bibitem[Mikolov et~al.(2013{\natexlab{c}})Mikolov, Yih, and
+  Zweig]{mikolov-etal-2013-linguistic}
+T.~Mikolov, W.-t. Yih, and G.~Zweig.
+\newblock Linguistic regularities in continuous space word representations.
+\newblock In \emph{Proceedings of the 2013 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 746--751, Atlanta, Georgia, June 2013{\natexlab{c}}.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N13-1090}.
+
+\bibitem[Miller(1985)]{miller-1985-dictionaries}
+G.~A. Miller.
+\newblock Dictionaries of the mind.
+\newblock In \emph{23rd Annual Meeting of the Association for Computational
+  Linguistics}, pages 305--314, Chicago, Illinois, USA, July 1985. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P85-1038}.
+
+\bibitem[Miller(1995)]{miller1995wordnet}
+G.~A. Miller.
+\newblock Wordnet: A lexical database for english.
+\newblock \emph{Commun. ACM}, 38\penalty0 (11):\penalty0 39--41, Nov. 1995.
+\newblock URL \url{https://dl.acm.org/doi/abs/10.1145/219717.219748}.
+
+\bibitem[Montague(1974)]{montague1974d}
+R.~Montague.
+\newblock Universal grammar.
+\newblock In R.~H. Thomason, editor, \emph{Formal Philosophy: Selected Papers
+  of Richard Montague}, number 222--247 in Theoria, New Haven, London, 1974.
+  Yale University Press.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-2567.1970.tb00434.x}.
+
+\bibitem[Moore and Lewis(2010)]{moore-lewis-2010-intelligent}
+R.~C. Moore and W.~Lewis.
+\newblock Intelligent selection of language model training data.
+\newblock In \emph{Proceedings of the {ACL} 2010 Conference Short Papers},
+  pages 220--224, Uppsala, Sweden, July 2010. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P10-2041}.
+
+\bibitem[Moussallem et~al.(2018)Moussallem, Sherif, Esteves, Zampieri, and
+  Ngonga~Ngomo]{moussallem-etal-2018-lidioms}
+D.~Moussallem, M.~A. Sherif, D.~Esteves, M.~Zampieri, and A.-C. Ngonga~Ngomo.
+\newblock {LI}dioms: A multilingual linked idioms data set.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation ({LREC}-2018)}, Miyazaki, Japan, May 2018.
+  European Languages Resources Association (ELRA).
+\newblock URL \url{https://www.aclweb.org/anthology/L18-1392}.
+
+\bibitem[Muzny and Zettlemoyer(2013)]{muzny2013automatic}
+G.~Muzny and L.~Zettlemoyer.
+\newblock Automatic idiom identification in {W}iktionary.
+\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1417--1421, Seattle, Washington, USA,
+  Oct. 2013. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D13-1145}.
+
+\bibitem[Navigli(2012)]{Navigli2012}
+R.~Navigli.
+\newblock \emph{SOFSEM 2012: Theory and Practice of Computer Science: 38th
+  Conference on Current Trends in Theory and Practice of Computer Science,
+  {\v{S}}pindler{\r{u}}v Ml{\'y}n, Czech Republic, January 21-27, 2012.
+  Proceedings}, chapter A Quick Tour of Word Sense Disambiguation, Induction
+  and Related Approaches, pages 115--129.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2012.
+\newblock URL
+  \url{https://link.springer.com/book/10.1007\%2F978-3-642-27660-6}.
+
+\bibitem[Navigli and Ponzetto(2010)]{navigli2010babelnet}
+R.~Navigli and S.~P. Ponzetto.
+\newblock Babel{N}et: {B}uilding a very large multilingual semantic network.
+\newblock In \emph{Proceedings of the 48th Annual Meeting of the Association
+  for Computational Linguistics}, pages 216--225, Uppsala, Sweden, July 2010.
+  Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P10-1023}.
+
+\bibitem[Neelakantan et~al.(2014)Neelakantan, Shankar, Passos, and
+  McCallum]{neelakantan2014efficient}
+A.~Neelakantan, J.~Shankar, A.~Passos, and A.~McCallum.
+\newblock Efficient non-parametric estimation of multiple embeddings per word
+  in vector space.
+\newblock In \emph{Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1059--1069, Doha, Qatar, Oct.
+  2014. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/D14-1113}.
+
+\bibitem[Ngo et~al.(2019)Ngo, Ha, Nguyen, and Nguyen]{ngo-etal-2019-overcoming}
+T.-V. Ngo, T.-L. Ha, P.-T. Nguyen, and L.-M. Nguyen.
+\newblock Overcoming the rare word problem for low-resource language pairs in
+  neural machine translation.
+\newblock In \emph{Proceedings of the 6th Workshop on Asian Translation}, pages
+  207--214, Hong Kong, China, Nov. 2019. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D19-5228}.
+
+\bibitem[Nunberg et~al.(1994)Nunberg, Sag, and Wasow]{10.2307/416483}
+G.~Nunberg, I.~A. Sag, and T.~Wasow.
+\newblock Idioms.
+\newblock \emph{Language}, 70\penalty0 (3):\penalty0 491--538, 1994.
+\newblock URL \url{http://www.jstor.org/stable/416483}.
+
+\bibitem[{\"O}stling and Tiedemann(2017)]{ostling2017neural}
+R.~{\"O}stling and J.~Tiedemann.
+\newblock Neural machine translation for low-resource languages.
+\newblock \emph{arXiv preprint arXiv:1708.05729}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1708.05729}.
+
+\bibitem[{Paisley} et~al.(2015){Paisley}, {Wang}, {Blei}, and
+  {Jordan}]{6802355}
+J.~{Paisley}, C.~{Wang}, D.~M. {Blei}, and M.~I. {Jordan}.
+\newblock Nested hierarchical {D}irichlet processes.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 37\penalty0 (2):\penalty0 256--270, 2015.
+\newblock URL \url{https://ieeexplore.ieee.org/abstract/document/6802355}.
+
+\bibitem[Papineni et~al.(2002)Papineni, Roukos, Ward, and Zhu]{Papineni2001}
+K.~Papineni, S.~Roukos, T.~Ward, and W.-J. Zhu.
+\newblock Bleu: a method for automatic evaluation of machine translation.
+\newblock In \emph{Proceedings of 40th Annual Meeting of the Association for
+  Computational Linguistics}, pages 311--318, Philadelphia, Pennsylvania, USA,
+  July 2002. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P02-1040}.
+
+\bibitem[Pelletier(1994)]{Pelletier94theprinciple}
+F.~J. Pelletier.
+\newblock The principle of semantic compositionality.
+\newblock \emph{Topoi}, 13:\penalty0 11--24, 1994.
+\newblock URL \url{https://link.springer.com/article/10.1007\%2FBF00763644}.
+
+\bibitem[Pennington et~al.(2014)Pennington, Socher, and
+  Manning]{pennington2014glove}
+J.~Pennington, R.~Socher, and C.~Manning.
+\newblock Glove: {G}lobal vectors for word representation.
+\newblock In \emph{Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 1532--1543, Doha, Qatar, Oct.
+  2014. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/D14-1162}.
+
+\bibitem[Peters et~al.(2018)Peters, Neumann, Iyyer, Gardner, Clark, Lee, and
+  Zettlemoyer]{peters-etal-2018-deep}
+M.~Peters, M.~Neumann, M.~Iyyer, M.~Gardner, C.~Clark, K.~Lee, and
+  L.~Zettlemoyer.
+\newblock Deep contextualized word representations.
+\newblock In \emph{Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 2227--2237, New Orleans,
+  Louisiana, June 2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N18-1202}.
+
+\bibitem[Pham et~al.(2017)Pham, Niehues, Ha, Cho, Sperber, and
+  Waibel]{pham2017karlsruhe}
+N.-Q. Pham, J.~Niehues, T.-L. Ha, E.~Cho, M.~Sperber, and A.~Waibel.
+\newblock The {K}arlsruhe {I}nstitute of {T}echnology systems for the news
+  translation task in {WMT} 2017.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 366--373, Copenhagen, Denmark, Sept. 2017. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-4736}.
+
+\bibitem[{Poncelas} et~al.(2018){Poncelas}, {Shterionov}, {Way}, {Maillette de
+  Buy Wenniger}, and {Passban}]{2018arXiv180406189P}
+A.~{Poncelas}, D.~{Shterionov}, A.~{Way}, G.~{Maillette de Buy Wenniger}, and
+  P.~{Passban}.
+\newblock Investigating backtranslation in neural machine translation.
+\newblock \emph{ArXiv e-prints}, Apr. 2018.
+\newblock URL \url{http://adsabs.harvard.edu/abs/2018arXiv180406189P}.
+
+\bibitem[{Poncelas} et~al.(2019{\natexlab{a}}){Poncelas}, {Maillette de Buy
+  Wenniger}, and {Way}]{2019arXiv190607808P}
+A.~{Poncelas}, G.~{Maillette de Buy Wenniger}, and A.~{Way}.
+\newblock Adaptation of machine translation models with back-translated data
+  using transductive data selection methods.
+\newblock \emph{arXiv e-prints}, art. arXiv:1906.07808, June
+  2019{\natexlab{a}}.
+\newblock URL \url{https://ui.adsabs.harvard.edu/abs/2019arXiv190607808P}.
+
+\bibitem[{Poncelas} et~al.(2019{\natexlab{b}}){Poncelas}, Popovic, Shterionov,
+  de~Buy~Wenniger, and Way]{DBLP:journals/corr/abs-1909-03750}
+A.~{Poncelas}, M.~Popovic, D.~Shterionov, G.~M. de~Buy~Wenniger, and A.~Way.
+\newblock Combining {SMT} and {NMT} back-translated data for efficient {NMT}.
+\newblock \emph{CoRR}, abs/1909.03750, 2019{\natexlab{b}}.
+\newblock URL \url{http://arxiv.org/abs/1909.03750}.
+
+\bibitem[Qi et~al.(2018)Qi, Sachan, Felix, Padmanabhan, and
+  Neubig]{qi-etal-2018-pre}
+Y.~Qi, D.~Sachan, M.~Felix, S.~Padmanabhan, and G.~Neubig.
+\newblock When and why are pre-trained word embeddings useful for neural
+  machine translation?
+\newblock In \emph{Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers)}, pages 529--535, New Orleans,
+  Louisiana, June 2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N18-2084}.
+
+\bibitem[Qiu et~al.(2016)Qiu, Tu, and Yu]{qiu-tu-yu:2016:EMNLP2016}
+L.~Qiu, K.~Tu, and Y.~Yu.
+\newblock Context-dependent sense embedding.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 183--191, Austin, Texas, Nov. 2016.
+  Association for Computational Linguistics.
+\newblock URL \url{https://aclweb.org/anthology/D16-1018}.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, and
+  Sutskever]{radford2019language}
+A.~Radford, J.~Wu, R.~Child, D.~Luan, D.~Amodei, and I.~Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock \emph{Technical report}, 2019.
+\newblock URL
+  \url{https://www.ceid.upatras.gr/webpages/faculty/zaro/teaching/alg-ds/PRESENTATIONS/PAPERS/2019-Radford-et-al\%5FLanguage-Models-Are-Unsupervised-Multitask-\%20Learners.pdf}.
+
+\bibitem[Radinsky et~al.(2011)Radinsky, Agichtein, Gabrilovich, and
+  Markovitch]{Radinsky:2011:WTC:1963405.1963455}
+K.~Radinsky, E.~Agichtein, E.~Gabrilovich, and S.~Markovitch.
+\newblock A word at a time: Computing word relatedness using temporal semantic
+  analysis.
+\newblock In \emph{Proceedings of the 20th International Conference on World
+  Wide Web}, WWW '11, pages 337--346, New York, NY, USA, 2011. ACM.
+\newblock URL \url{http://doi.acm.org/10.1145/1963405.1963455}.
+
+\bibitem[Ranzato et~al.(2016)Ranzato, Chopra, Auli, and
+  Zaremba]{DBLP:journals/corr/RanzatoCAZ15}
+M.~Ranzato, S.~Chopra, M.~Auli, and W.~Zaremba.
+\newblock Sequence level training with recurrent neural networks.
+\newblock In Y.~Bengio and Y.~LeCun, editors, \emph{4th International
+  Conference on Learning Representations, {ICLR} 2016, San Juan, Puerto Rico,
+  May 2-4, 2016, Conference Track Proceedings}, 2016.
+\newblock URL \url{http://arxiv.org/abs/1511.06732}.
+
+\bibitem[Rapp(2009)]{Rapp:2009:BSA:1667583.1667625}
+R.~Rapp.
+\newblock The back-translation score: Automatic {MT} evaluation at the sentence
+  level without reference translations.
+\newblock In \emph{Proceedings of the ACL-IJCNLP 2009 Conference Short Papers},
+  ACLShort '09, pages 133--136, Stroudsburg, PA, USA, 2009. Association for
+  Computational Linguistics.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=1667583.1667625}.
+
+\bibitem[Reisinger and Mooney(2010)]{reisinger-mooney:2010:NAACLHLT}
+J.~Reisinger and R.~J. Mooney.
+\newblock Multi-prototype vector-space models of word meaning.
+\newblock In \emph{Human Language Technologies: The 2010 Annual Conference of
+  the North American Chapter of the Association for Computational Linguistics},
+  pages 109--117, Los Angeles, California, June 2010. Association for
+  Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/N10-1013}.
+
+\bibitem[Ribeiro et~al.(2020)Ribeiro, Wu, Guestrin, and
+  Singh]{ribeiro-etal-2020-beyond}
+M.~T. Ribeiro, T.~Wu, C.~Guestrin, and S.~Singh.
+\newblock Beyond accuracy: Behavioral testing of {NLP} models with
+  {C}heck{L}ist.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 4902--4912, Online, July 2020.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.442}.
+
+\bibitem[Rios et~al.(2018)Rios, M{\"u}ller, and Sennrich]{rios-etal-2018-word}
+A.~Rios, M.~M{\"u}ller, and R.~Sennrich.
+\newblock The word sense disambiguation test suite at {WMT}18.
+\newblock In \emph{Proceedings of the Third Conference on Machine Translation:
+  Shared Task Papers}, pages 588--596, Belgium, Brussels, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W18-6437}.
+
+\bibitem[Rubenstein and Goodenough(1965)]{Rubenstein:1965:CCS:365628.365657}
+H.~Rubenstein and J.~B. Goodenough.
+\newblock Contextual correlates of synonymy.
+\newblock \emph{Communications of the ACM}, 8\penalty0 (10):\penalty0 627--633,
+  Oct. 1965.
+\newblock URL \url{http://doi.acm.org/10.1145/365628.365657}.
+
+\bibitem[Rumelhart et~al.(1988)Rumelhart, Hinton, and
+  Williams]{10.5555/65669.104451}
+D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams.
+\newblock \emph{Learning Representations by Back-Propagating Errors}, pages
+  696--699.
+\newblock MIT Press, Cambridge, MA, USA, 1988.
+\newblock URL \url{https://www.nature.com/articles/323533a0}.
+
+\bibitem[Salehi and Cook(2013)]{salehi-cook-2013-predicting}
+B.~Salehi and P.~Cook.
+\newblock Predicting the compositionality of multiword expressions using
+  translations in multiple languages.
+\newblock In \emph{Second Joint Conference on Lexical and Computational
+  Semantics (\textasteriskcentered{SEM}), Volume 1: Proceedings of the Main
+  Conference and the Shared Task: Semantic Textual Similarity}, pages 266--275,
+  Atlanta, Georgia, USA, June 2013. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/S13-1039}.
+
+\bibitem[Salehi et~al.(2015)Salehi, Cook, and Baldwin]{salehi-etal-2015-word}
+B.~Salehi, P.~Cook, and T.~Baldwin.
+\newblock A word embedding approach to predicting the compositionality of
+  multiword expressions.
+\newblock In \emph{Proceedings of the 2015 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 977--983, Denver, Colorado, May 2015. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N15-1099}.
+
+\bibitem[Salton et~al.(2014{\natexlab{a}})Salton, Ross, and
+  Kelleher]{salton-etal-2014-evaluation}
+G.~Salton, R.~Ross, and J.~Kelleher.
+\newblock Evaluation of a substitution method for idiom transformation in
+  statistical machine translation.
+\newblock In \emph{Proceedings of the 10th Workshop on Multiword Expressions
+  ({MWE})}, pages 38--42, Gothenburg, Sweden, Apr. 2014{\natexlab{a}}.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W14-0806}.
+
+\bibitem[Salton et~al.(2014{\natexlab{b}})Salton, Ross, and
+  Kelleher]{salton-ross-kelleher:2014:HyTra}
+G.~Salton, R.~Ross, and J.~Kelleher.
+\newblock An empirical study of the impact of idioms on phrase based
+  statistical machine translation of english to brazilian-portuguese.
+\newblock In \emph{Proceedings of the 3rd Workshop on Hybrid Approaches to
+  Machine Translation (HyTra)}, pages 36--41, Gothenburg, Sweden, Apr.
+  2014{\natexlab{b}}. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W14-1007}.
+
+\bibitem[Salton et~al.(2016)Salton, Ross, and Kelleher]{salton-etal-2016-idiom}
+G.~Salton, R.~Ross, and J.~Kelleher.
+\newblock Idiom token classification using sentential distributed semantics.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 194--204,
+  Berlin, Germany, Aug. 2016. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P16-1019}.
+
+\bibitem[Schenk(1986)]{Schenk:1986:IRM:991365.991458}
+A.~Schenk.
+\newblock Idioms in the {R}osetta machine translation system.
+\newblock In \emph{Proceedings of the 11th Coference on Computational
+  Linguistics}, COLING '86, pages 319--324, Stroudsburg, PA, USA, 1986.
+  Association for Computational Linguistics.
+\newblock URL \url{https://doi.org/10.3115/991365.991458}.
+
+\bibitem[Schmidhuber(1993)]{Schmidhuber:HabilitationThesis}
+J.~Schmidhuber.
+\newblock \emph{Habilitation thesis}.
+\newblock Institut f{\"u}r Informatik, Technische Universit{\"a}t M{\"u}nchen,
+  1993.
+\newblock URL \url{ftp://ftp.idsia.ch/pub/juergen/habilitation.pdf}.
+
+\bibitem[Schwenk(2008)]{Schwenk2008InvestigationsOL}
+H.~Schwenk.
+\newblock Investigations on large-scale lightly-supervised training for
+  statistical machine translation.
+\newblock In \emph{IWSLT}, 2008.
+\newblock URL
+  \url{https://www.isca-speech.org/archive/iwslt\%5F08/papers/slt8\%5F182.pdf}.
+
+\bibitem[Sennrich and Zhang(2019)]{sennrich-zhang-2019-revisiting}
+R.~Sennrich and B.~Zhang.
+\newblock Revisiting low-resource neural machine translation: A case study.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 211--221, Florence, Italy, July 2019.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P19-1021}.
+
+\bibitem[Sennrich et~al.(2016{\natexlab{a}})Sennrich, Haddow, and
+  Birch]{sennrich-etal-2016-controlling}
+R.~Sennrich, B.~Haddow, and A.~Birch.
+\newblock Controlling politeness in neural machine translation via side
+  constraints.
+\newblock In \emph{Proceedings of the 2016 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 35--40, San Diego, California, June 2016{\natexlab{a}}.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N16-1005}.
+
+\bibitem[Sennrich et~al.(2016{\natexlab{b}})Sennrich, Haddow, and
+  Birch]{sennrich-haddow-birch:2016:P16-11}
+R.~Sennrich, B.~Haddow, and A.~Birch.
+\newblock Improving neural machine translation models with monolingual data.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 86--96, Berlin,
+  Germany, Aug. 2016{\natexlab{b}}. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P16-1009}.
+
+\bibitem[Sennrich et~al.(2016{\natexlab{c}})Sennrich, Haddow, and
+  Birch]{sennrich-haddow-birch:2016:P16-12}
+R.~Sennrich, B.~Haddow, and A.~Birch.
+\newblock Neural machine translation of rare words with subword units.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1715--1725,
+  Berlin, Germany, Aug. 2016{\natexlab{c}}. Association for Computational
+  Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P16-1162}.
+
+\bibitem[Sennrich et~al.(2017)Sennrich, Birch, Currey, Germann, Haddow,
+  Heafield, Miceli~Barone, and Williams]{2017arXiv170800726S}
+R.~Sennrich, A.~Birch, A.~Currey, U.~Germann, B.~Haddow, K.~Heafield, A.~V.
+  Miceli~Barone, and P.~Williams.
+\newblock The university of edinburgh's neural {MT} systems for {WMT17}.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 389--399, Copenhagen, Denmark, Sept. 2017. Association
+  for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/W17-4739}.
+
+\bibitem[Shao et~al.(2018)Shao, Sennrich, Webber, and
+  Fancellu]{shao-etal-2018-evaluating}
+Y.~Shao, R.~Sennrich, B.~Webber, and F.~Fancellu.
+\newblock Evaluating machine translation performance on {C}hinese idioms with a
+  blacklist method.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation ({LREC}-2018)}, Miyazaki, Japan, May 2018.
+  European Languages Resources Association (ELRA).
+\newblock URL \url{https://www.aclweb.org/anthology/L18-1005}.
+
+\bibitem[Silva et~al.(2018)Silva, Liu, Poncelas, and
+  Way]{silva-etal-2018-extracting}
+C.~C. Silva, C.-H. Liu, A.~Poncelas, and A.~Way.
+\newblock Extracting in-domain training corpora for neural machine translation
+  using data selection methods.
+\newblock In \emph{Proceedings of the Third Conference on Machine Translation:
+  Research Papers}, pages 224--231, Belgium, Brussels, Oct. 2018. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W18-6323}.
+
+\bibitem[Singh et~al.(2018)Singh, Najibi, and Davis]{singh2018sniper}
+B.~Singh, M.~Najibi, and L.~S. Davis.
+\newblock Sniper: Efficient multi-scale training.
+\newblock In S.~Bengio, H.~Wallach, H.~Larochelle, K.~Grauman, N.~Cesa-Bianchi,
+  and R.~Garnett, editors, \emph{Advances in Neural Information Processing
+  Systems 31}, pages 9310--9320. Curran Associates, Inc., 2018.
+\newblock URL
+  \url{http://papers.nips.cc/paper/8143-sniper-efficient-multi-scale-training}.
+
+\bibitem[Small et~al.(2013)Small, Cottrell, and Tanenhaus]{small2013lexical}
+S.~Small, G.~Cottrell, and M.~Tanenhaus.
+\newblock \emph{Lexical Ambiguity Resolution: Perspective from
+  Psycholinguistics, Neuropsychology and Artificial Intelligence}.
+\newblock Elsevier Science, 2013.
+\newblock URL \url{https://books.google.nl/books?id=-J-fAgAAQBAJ}.
+
+\bibitem[Snover et~al.(2006)Snover, Dorr, Schwartz, Micciulla, and
+  Makhoul]{Snover06astudy}
+M.~Snover, B.~Dorr, R.~Schwartz, L.~Micciulla, and J.~Makhoul.
+\newblock A study of translation edit rate with targeted human annotation.
+\newblock In \emph{In Proceedings of Association for Machine Translation in the
+  Americas}, pages 223--231, 2006.
+\newblock URL \url{http://mt-archive.info/AMTA-2006-Snover.pdf}.
+
+\bibitem[Sprent and Smeeton(2016)]{sprent2016applied}
+P.~Sprent and N.~C. Smeeton.
+\newblock \emph{Applied nonparametric statistical methods}.
+\newblock CRC Press, 2016.
+\newblock URL \url{https://link.springer.com/book/10.1007/978-94-009-1223-6}.
+
+\bibitem[Stanovsky et~al.(2019)Stanovsky, Smith, and
+  Zettlemoyer]{stanovsky-etal-2019-evaluating}
+G.~Stanovsky, N.~A. Smith, and L.~Zettlemoyer.
+\newblock Evaluating gender bias in machine translation.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1679--1684, Florence, Italy, July 2019.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P19-1164}.
+
+\bibitem[Steinberger et~al.(2006)Steinberger, Pouliquen, Widiger, Ignat,
+  Erjavec, Tufis, and Varga]{steinberger2006jrc}
+R.~Steinberger, B.~Pouliquen, A.~Widiger, C.~Ignat, T.~Erjavec, D.~Tufis, and
+  D.~Varga.
+\newblock The {JRC}-{A}cquis: A multilingual aligned parallel corpus with 20+
+  languages.
+\newblock \emph{arXiv preprint cs/0609058}, 2006.
+\newblock URL \url{https://arxiv.org/abs/cs/0609058}.
+
+\bibitem[Sun et~al.(2020)Sun, Wang, Chen, Utiyama, Sumita, and
+  Zhao]{sun-etal-2020-knowledge}
+H.~Sun, R.~Wang, K.~Chen, M.~Utiyama, E.~Sumita, and T.~Zhao.
+\newblock Knowledge distillation for multilingual unsupervised neural machine
+  translation.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 3525--3535, Online, July 2020.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.324}.
+
+\bibitem[Sutskever et~al.(2014)Sutskever, Vinyals, and
+  Le]{sutskever2014sequence}
+I.~Sutskever, O.~Vinyals, and Q.~V. Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q.
+  Weinberger, editors, \emph{Advances in Neural Information Processing Systems
+  27}, pages 3104--3112. Curran Associates, Inc., 2014.
+\newblock URL
+  \url{http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks}.
+
+\bibitem[Szarvas et~al.(2013)Szarvas, Busa-Fekete, and
+  H\"{u}llermeier]{DBLP:conf/emnlp/SzarvasBH13}
+G.~Szarvas, R.~Busa-Fekete, and E.~H\"{u}llermeier.
+\newblock Learning to rank lexical substitutions.
+\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1926--1932, Seattle, Washington, USA,
+  Oct. 2013. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/D13-1198}.
+
+\bibitem[Tang et~al.(2014)Tang, Wei, Yang, Zhou, Liu, and
+  Qin]{tang2014learning}
+D.~Tang, F.~Wei, N.~Yang, M.~Zhou, T.~Liu, and B.~Qin.
+\newblock Learning sentiment-specific word embedding for twitter sentiment
+  classification.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1555--1565,
+  Baltimore, Maryland, June 2014. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/P14-1146}.
+
+\bibitem[Teh et~al.(2005)Teh, Jordan, Beal, and Blei]{citeulike:635668}
+Y.~W. Teh, M.~I. Jordan, M.~J. Beal, and D.~M. Blei.
+\newblock Sharing clusters among related groups: Hierarchical {D}irichlet
+  processes.
+\newblock In L.~K. Saul, Y.~Weiss, and L.~Bottou, editors, \emph{Advances in
+  Neural Information Processing Systems 17}, pages 1385--1392. MIT Press, 2005.
+\newblock URL
+  \url{http://papers.nips.cc/paper/2698-sharing-clusters-among-related-groups-hierarchical-dirichlet-processes}.
+
+\bibitem[Teh et~al.(2006)Teh, Jordan, Beal, and Blei]{teh2006hierarchical}
+Y.~W. Teh, M.~I. Jordan, M.~J. Beal, and D.~M. Blei.
+\newblock Hierarchical {D}irichlet processes.
+\newblock \emph{Journal of the American Statistical Association}, 101\penalty0
+  (476):\penalty0 1566--1581, 2006.
+\newblock URL
+  \url{https://www.seas.harvard.edu/courses/cs281/papers/teh-jordan-beal-blei-2005.pdf}.
+
+\bibitem[Tiedemann et~al.(2016)Tiedemann, Cap, Kanerva, Ginter, Stymne,
+  {\"O}stling, and Weller-Di~Marco]{tiedemann-etal-2016-phrase}
+J.~Tiedemann, F.~Cap, J.~Kanerva, F.~Ginter, S.~Stymne, R.~{\"O}stling, and
+  M.~Weller-Di~Marco.
+\newblock Phrase-based {SMT} for {F}innish with more data, better models and
+  alternative alignment and translation tools.
+\newblock In \emph{Proceedings of the First Conference on Machine Translation:
+  Volume 2, Shared Task Papers}, pages 391--398, Berlin, Germany, Aug. 2016.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W16-2326}.
+
+\bibitem[Torabi~Asr et~al.(2018)Torabi~Asr, Zinkov, and
+  Jones]{torabi-asr-etal-2018-querying}
+F.~Torabi~Asr, R.~Zinkov, and M.~Jones.
+\newblock Querying word embeddings for similarity and relatedness.
+\newblock In \emph{Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 675--684, New Orleans,
+  Louisiana, June 2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N18-1062}.
+
+\bibitem[Tran et~al.(2018)Tran, Bisazza, and Monz]{tran-etal-2018-importance}
+K.~Tran, A.~Bisazza, and C.~Monz.
+\newblock The importance of being recurrent for modeling hierarchical
+  structure.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 4731--4736, Brussels, Belgium, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1503}.
+
+\bibitem[Ueffing et~al.(2007)Ueffing, Haffari, and Sarkar]{Ueffing2007}
+N.~Ueffing, G.~Haffari, and A.~Sarkar.
+\newblock Semi-supervised model adaptation for statistical machine translation.
+\newblock \emph{Machine Translation}, 21\penalty0 (2):\penalty0 77--94, June
+  2007.
+\newblock URL \url{https://doi.org/10.1007/s10590-008-9036-3}.
+
+\bibitem[{van der Maaten} and Hinton(2008)]{7b54165e73a3424b8820136bcf61ca89}
+L.~{van der Maaten} and G.~Hinton.
+\newblock Visualizing high-dimensional data using t-sne.
+\newblock \emph{Journal of Machine Learning Research}, 9\penalty0
+  (nov):\penalty0 2579--2605, 2008.
+\newblock URL
+  \url{http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf}.
+\newblock Pagination: 27.
+
+\bibitem[van~der Wees et~al.(2017)van~der Wees, Bisazza, and
+  Monz]{vanderwees-bisazza-monz:2017:EMNLP2017}
+M.~van~der Wees, A.~Bisazza, and C.~Monz.
+\newblock Dynamic data selection for neural machine translation.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1400--1410, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D17-1147}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez, L.~u.
+  Kaiser, and I.~Polosukhin.
+\newblock Attention is all you need.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems 30}, pages 5998--6008. Curran Associates,
+  Inc., 2017.
+\newblock URL \url{http://papers.nips.cc/paper/7181-attention-is-all-you-need}.
+
+\bibitem[Wang et~al.(2013)Wang, Wong, Chao, Xing, Lu, and
+  Trancoso]{wang-etal-2013-edit}
+L.~Wang, D.~F. Wong, L.~S. Chao, J.~Xing, Y.~Lu, and I.~Trancoso.
+\newblock Edit distance: A new data selection criterion for domain adaptation
+  in {SMT}.
+\newblock In \emph{Proceedings of the International Conference Recent Advances
+  in Natural Language Processing {RANLP} 2013}, pages 727--732, Hissar,
+  Bulgaria, Sept. 2013. INCOMA Ltd. Shoumen, BULGARIA.
+\newblock URL \url{https://www.aclweb.org/anthology/R13-1094}.
+
+\bibitem[Wang et~al.(2019{\natexlab{a}})Wang, Caswell, and
+  Chelba]{wang-etal-2019-dynamically}
+W.~Wang, I.~Caswell, and C.~Chelba.
+\newblock Dynamically composing domain-data selection with clean-data selection
+  by {``}co-curricular learning{''} for neural machine translation.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1282--1292, Florence, Italy, July
+  2019{\natexlab{a}}. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P19-1123}.
+
+\bibitem[Wang et~al.(2018)Wang, Pham, Dai, and
+  Neubig]{wang-etal-2018-switchout}
+X.~Wang, H.~Pham, Z.~Dai, and G.~Neubig.
+\newblock {S}witch{O}ut: {A}n efficient data augmentation algorithm for neural
+  machine translation.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 856--861, Brussels, Belgium, Oct. 2018.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D18-1100}.
+
+\bibitem[Wang et~al.(2019{\natexlab{b}})Wang, Cui, and Zhang]{Wang2019UsingDE}
+Y.~Wang, L.~Cui, and Y.~Zhang.
+\newblock Using dynamic embeddings to improve static embeddings.
+\newblock \emph{ArXiv}, abs/1911.02929, 2019{\natexlab{b}}.
+\newblock URL
+  \url{https://ui.adsabs.harvard.edu/abs/2019arXiv191102929W/abstract}.
+
+\bibitem[Wang et~al.(2017)Wang, Ramanan, and Hebert]{NIPS2017_7278}
+Y.-X. Wang, D.~Ramanan, and M.~Hebert.
+\newblock Learning to model the tail.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems 30}, pages 7029--7039. Curran Associates,
+  Inc., 2017.
+\newblock URL
+  \url{http://papers.nips.cc/paper/7278-learning-to-model-the-tail}.
+
+\bibitem[Wiseman and Rush(2016)]{wiseman-rush-2016-sequence}
+S.~Wiseman and A.~M. Rush.
+\newblock Sequence-to-sequence learning as beam-search optimization.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1296--1306, Austin, Texas, Nov. 2016.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D16-1137}.
+
+\bibitem[Wu et~al.(2016)Wu, Schuster, Chen, Le, Norouzi, Macherey, Krikun, Cao,
+  Gao, Macherey, Klingner, Shah, Johnson, Liu, Kaiser, Gouws, Kato, Kudo,
+  Kazawa, Stevens, Kurian, Patil, Wang, Young, Smith, Riesa, Rudnick, Vinyals,
+  Corrado, Hughes, and Dean]{wu2016google}
+Y.~Wu, M.~Schuster, Z.~Chen, Q.~V. Le, M.~Norouzi, W.~Macherey, M.~Krikun,
+  Y.~Cao, Q.~Gao, K.~Macherey, J.~Klingner, A.~Shah, M.~Johnson, X.~Liu,
+  L.~Kaiser, S.~Gouws, Y.~Kato, T.~Kudo, H.~Kazawa, K.~Stevens, G.~Kurian,
+  N.~Patil, W.~Wang, C.~Young, J.~Smith, J.~Riesa, A.~Rudnick, O.~Vinyals,
+  G.~Corrado, M.~Hughes, and J.~Dean.
+\newblock Google's neural machine translation system: Bridging the gap between
+  human and machine translation.
+\newblock \emph{CoRR}, abs/1609.08144, 2016.
+\newblock URL \url{http://arxiv.org/abs/1609.08144}.
+
+\bibitem[Wubben et~al.(2012)Wubben, van~den Bosch, and
+  Krahmer]{wubben-etal-2012-sentence}
+S.~Wubben, A.~van~den Bosch, and E.~Krahmer.
+\newblock Sentence simplification by monolingual machine translation.
+\newblock In \emph{Proceedings of the 50th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1015--1024,
+  Jeju Island, Korea, July 2012. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P12-1107}.
+
+\bibitem[{Xiong} et~al.(2017){Xiong}, {Droppo}, {Huang}, {Seide}, {Seltzer},
+  {Stolcke}, {Yu}, and {Zweig}]{8049322}
+W.~{Xiong}, J.~{Droppo}, X.~{Huang}, F.~{Seide}, M.~L. {Seltzer}, A.~{Stolcke},
+  D.~{Yu}, and G.~{Zweig}.
+\newblock Toward human parity in conversational speech recognition.
+\newblock \emph{IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, 25\penalty0 (12):\penalty0 2410--2423, 2017.
+
+\bibitem[Yang et~al.(2018)Yang, Chen, Wang, and
+  Xu]{yang-etal-2018-unsupervised}
+Z.~Yang, W.~Chen, F.~Wang, and B.~Xu.
+\newblock Unsupervised neural machine translation with weight sharing.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 46--55,
+  Melbourne, Australia, July 2018. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P18-1005}.
+
+\bibitem[Yao and Van~Durme(2011)]{yao2011nonparametric}
+X.~Yao and B.~Van~Durme.
+\newblock Nonparametric {B}ayesian word sense induction.
+\newblock In \emph{Proceedings of {T}ext{G}raphs-6: Graph-based Methods for
+  Natural Language Processing}, pages 10--14, Portland, Oregon, June 2011.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W11-1102}.
+
+\bibitem[Yih and Qazvinian(2012)]{yih-qazvinian-2012-measuring}
+W.-t. Yih and V.~Qazvinian.
+\newblock Measuring word relatedness using heterogeneous vector space models.
+\newblock In \emph{Proceedings of the 2012 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 616--620, Montr{\'e}al, Canada, June 2012. Association
+  for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/N12-1077}.
+
+\bibitem[Yu et~al.(2017)Yu, Wang, Lai, and Zhang]{yu-etal-2017-refining}
+L.-C. Yu, J.~Wang, K.~R. Lai, and X.~Zhang.
+\newblock Refining word embeddings for sentiment analysis.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 534--539, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D17-1056}.
+
+\bibitem[Yuan et~al.(2019)Yuan, Chen, and Wang]{yuan2019objectcontextual}
+Y.~Yuan, X.~Chen, and J.~Wang.
+\newblock Object-contextual representations for semantic segmentation, 2019.
+\newblock URL \url{https://arxiv.org/abs/1909.11065}.
+
+\bibitem[Zhang and Zong(2016)]{zhang-zong-2016-exploiting}
+J.~Zhang and C.~Zong.
+\newblock Exploiting source-side monolingual data in neural machine
+  translation.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1535--1545, Austin, Texas, Nov. 2016.
+  Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D16-1160}.
+
+\bibitem[Zhang and Lapata(2017)]{zhang-lapata-2017-sentence}
+X.~Zhang and M.~Lapata.
+\newblock Sentence simplification with deep reinforcement learning.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 584--594, Copenhagen, Denmark, Sept.
+  2017. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/D17-1062}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Wu, Zhao, Li, Zhang, Zhou, and
+  Zhou]{zhang2019semanticsaware}
+Z.~Zhang, Y.~Wu, H.~Zhao, Z.~Li, S.~Zhang, X.~Zhou, and X.~Zhou.
+\newblock Semantics-aware {BERT} for language understanding, 2019.
+\newblock URL \url{https://arxiv.org/abs/1909.02209}.
+
+\bibitem[Zhang et~al.(2020)Zhang, jie Yang, and Zhao]{Zhang2020RetrospectiveRF}
+Z.~Zhang, J.~jie Yang, and H.~Zhao.
+\newblock Retrospective reader for machine reading comprehension.
+\newblock \emph{ArXiv}, abs/2001.09694, 2020.
+\newblock URL \url{https://arxiv.org/abs/2001.09694}.
+
+\bibitem[Zoph et~al.(2016)Zoph, Yuret, May, and
+  Knight]{zoph-EtAl:2016:EMNLP2016}
+B.~Zoph, D.~Yuret, J.~May, and K.~Knight.
+\newblock Transfer learning for low-resource neural machine translation.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1568--1575, Austin, Texas, Nov. 2016.
+  Association for Computational Linguistics.
+\newblock URL \url{https://aclweb.org/anthology/D16-1163}.
+
+\bibitem[Zou et~al.(2013)Zou, Socher, Cer, and Manning]{zou2013bilingual}
+W.~Y. Zou, R.~Socher, D.~Cer, and C.~D. Manning.
+\newblock Bilingual word embeddings for phrase-based machine translation.
+\newblock In \emph{Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1393--1398, Seattle, Washington, USA,
+  Oct. 2013. Association for Computational Linguistics.
+\newblock URL \url{http://www.aclweb.org/anthology/D13-1141}.
+
+\end{thebibliography}

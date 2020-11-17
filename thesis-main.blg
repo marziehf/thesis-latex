@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis-main.aux
+The style file: abbrvnat.bst
+Reallocated field_info (elt_size=4) to 11944 items from 5000.
+Database file #1: thesis_clean.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+You've used 248 entries,
+            2773 wiz_defined-function locations,
+            2184 strings with 71170 characters,
+and the built_in function-call counts, 154368 in all, are:
+= -- 14808
+> -- 9109
+< -- 246
++ -- 3058
+- -- 2797
+* -- 12612
+:= -- 22577
+add.period$ -- 1145
+call.type$ -- 248
+change.case$ -- 1647
+chr.to.int$ -- 235
+cite$ -- 496
+duplicate$ -- 7101
+empty$ -- 11580
+format.name$ -- 3157
+if$ -- 33848
+int.to.chr$ -- 14
+int.to.str$ -- 1
+missing$ -- 253
+newline$ -- 1492
+num.names$ -- 1019
+pop$ -- 3472
+preamble$ -- 1
+purify$ -- 1410
+quote$ -- 0
+skip$ -- 5633
+stack$ -- 0
+substring$ -- 6391
+swap$ -- 1917
+text.length$ -- 164
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2676
+warning$ -- 0
+while$ -- 1287
+width$ -- 0
+write$ -- 3974

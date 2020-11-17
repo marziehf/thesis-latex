@@ -1,0 +1,159 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Research outline and questions}{2}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Main contributions}{7}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Algorithmic contributions}{7}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Empirical contributions}{8}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Resource contributions}{9}{subsection.1.2.3}% 
+\contentsline {section}{\numberline {1.3}Thesis overview}{9}{section.1.3}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:background}: Background}{9}{paragraph*.2}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-01}: Representation learning using documental context }{9}{paragraph*.3}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-02}: Data augmentation for rare words}{10}{paragraph*.4}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-03}: Data augmentation based on model failure}{10}{paragraph*.5}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-04}: Analyzing idiomatic expressions}{10}{paragraph*.6}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-05}: Analyzing volatility}{10}{paragraph*.7}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:conclusions}: Conclusion}{10}{paragraph*.8}% 
+\contentsline {section}{\numberline {1.4}Origins}{10}{section.1.4}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-01}}{10}{paragraph*.9}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-02}}{11}{paragraph*.10}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-03}}{11}{paragraph*.11}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-04}}{11}{paragraph*.12}% 
+\contentsline {paragraph}{Chapter\relax \nobreakspace {}\ref {chapter:research-05}}{11}{paragraph*.13}% 
+\contentsline {chapter}{\numberline {2}Background}{13}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Parallel and monolingual corpora}{13}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Back-Translation in machine translation}{14}{subsection.2.1.1}% 
+\contentsline {section}{\numberline {2.2}Translation vocabulary}{15}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Word representations}{16}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Static embeddings}{17}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Dynamic embeddings}{18}{subsection.2.3.2}% 
+\contentsline {section}{\numberline {2.4}Recurrent translation models}{19}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Model architecture}{20}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Inference}{21}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Attention mechanism}{22}{subsection.2.4.3}% 
+\contentsline {section}{\numberline {2.5}Fully attention-based translation models}{22}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Model architecture}{23}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Residual connections}{25}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Positional Encoding}{25}{subsection.2.5.3}% 
+\contentsline {section}{\numberline {2.6}Translation evaluation}{26}{section.2.6}% 
+\contentsline {chapter}{\numberline {3}Topic-Sensitive Word Representations}{29}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Introduction and research questions}{29}{section.3.1}% 
+\contentsline {paragraph}{Research Question 1:}{30}{paragraph*.19}% 
+\contentsline {paragraph}{Organization.}{31}{paragraph*.20}% 
+\contentsline {section}{\numberline {3.2}Related work}{31}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Word sense disambiguation}{31}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Static sense representations}{32}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}Topic-Sensitive representations}{32}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Hard topic-labeled representations}{33}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Soft topic-labeled representations}{35}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Embeddings for polysemous words}{35}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}Evaluation}{38}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Experimental setup}{38}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Word similarity task}{38}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Context-Aware word similarity task}{40}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Lexical substitution task}{43}{subsection.3.4.4}% 
+\contentsline {section}{\numberline {3.5}Qualitative analysis}{46}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Conclusion}{49}{section.3.6}% 
+\contentsline {paragraph}{Research Question 1:}{50}{paragraph*.35}% 
+\contentsline {chapter}{\numberline {4}Data Augmentation for Rare Words}{53}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Introduction and research questions}{53}{section.4.1}% 
+\contentsline {paragraph}{Research Question 2:}{54}{paragraph*.37}% 
+\contentsline {paragraph}{Organization.}{55}{paragraph*.38}% 
+\contentsline {section}{\numberline {4.2}Previous work}{55}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Data augmentation in computer vision}{55}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Low-Resource translation}{56}{subsection.4.2.2}% 
+\contentsline {paragraph}{Leveraging monolingual data}{56}{paragraph*.39}% 
+\contentsline {paragraph}{Re-designing the model}{57}{paragraph*.40}% 
+\contentsline {paragraph}{Cross-lingual transfer learning}{57}{paragraph*.41}% 
+\contentsline {paragraph}{Unsupervised learning}{57}{paragraph*.42}% 
+\contentsline {section}{\numberline {4.3}Data augmentation for rare words}{58}{section.4.3}% 
+\contentsline {paragraph}{Targeted words selection:}{59}{paragraph*.43}% 
+\contentsline {paragraph}{Rare word substitution:}{59}{paragraph*.44}% 
+\contentsline {paragraph}{Translation selection:}{59}{paragraph*.45}% 
+\contentsline {paragraph}{Sampling:}{59}{paragraph*.46}% 
+\contentsline {paragraph}{Augmentation:}{60}{paragraph*.47}% 
+\contentsline {section}{\numberline {4.4}Data and experimental setup}{62}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Results}{62}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Further analysis}{65}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Target words}{65}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Source words}{67}{subsection.4.6.2}% 
+\contentsline {subsection}{\numberline {4.6.3}Negative examples}{67}{subsection.4.6.3}% 
+\contentsline {subsection}{\numberline {4.6.4}Word segmentation}{69}{subsection.4.6.4}% 
+\contentsline {section}{\numberline {4.7}Meaning-Preserving augmentation}{69}{section.4.7}% 
+\contentsline {subparagraph}{PPDB}{69}{subparagraph*.57}% 
+\contentsline {subparagraph}{Wordnet}{69}{subparagraph*.58}% 
+\contentsline {subparagraph}{CBOW}{70}{subparagraph*.59}% 
+\contentsline {subparagraph}{HTLE}{70}{subparagraph*.60}% 
+\contentsline {section}{\numberline {4.8}Conclusion}{72}{section.4.8}% 
+\contentsline {paragraph}{Research Question 2:}{73}{paragraph*.65}% 
+\contentsline {chapter}{\numberline {5}Data Augmentation Based on Model Failure}{75}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Introduction and research questions}{75}{section.5.1}% 
+\contentsline {paragraph}{Research Question 2:}{76}{paragraph*.66}% 
+\contentsline {paragraph}{Organization.}{76}{paragraph*.67}% 
+\contentsline {section}{\numberline {5.2}Related work}{77}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Data selection in machine translation}{77}{subsection.5.2.1}% 
+\contentsline {section}{\numberline {5.3}Data and experimental setup}{78}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Analyzing back-translation with random sampling}{78}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Impact of synthetic data size}{79}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Impact of translation direction}{80}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.3}Impact of quality of the synthetic data}{81}{subsection.5.4.3}% 
+\contentsline {section}{\numberline {5.5}Back-Translation and token prediction loss}{82}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Targeted sampling based on model failure}{83}{section.5.6}% 
+\contentsline {subsection}{\numberline {5.6.1}Token frequency as a feature of difficulty}{84}{subsection.5.6.1}% 
+\contentsline {subsection}{\numberline {5.6.2}Tokens with high mean prediction losses}{85}{subsection.5.6.2}% 
+\contentsline {subsection}{\numberline {5.6.3}Tokens with skewed prediction losses}{85}{subsection.5.6.3}% 
+\contentsline {subsection}{\numberline {5.6.4}Preserving sampling ratio of difficult occurrences}{86}{subsection.5.6.4}% 
+\contentsline {subsection}{\numberline {5.6.5}Results}{86}{subsection.5.6.5}% 
+\contentsline {section}{\numberline {5.7}Context-Aware targeted sampling}{89}{section.5.7}% 
+\contentsline {subsection}{\numberline {5.7.1}Definition of local context}{90}{subsection.5.7.1}% 
+\contentsline {paragraph}{Neighboring tokens}{90}{paragraph*.77}% 
+\contentsline {paragraph}{Sibling tokens}{90}{paragraph*.78}% 
+\contentsline {subsection}{\numberline {5.7.2}Similarity of the local contexts}{92}{subsection.5.7.2}% 
+\contentsline {paragraph}{Matching the local context (Exct)}{92}{paragraph*.81}% 
+\contentsline {paragraph}{Word representations (Sem)}{92}{paragraph*.82}% 
+\contentsline {subsection}{\numberline {5.7.3}Results}{92}{subsection.5.7.3}% 
+\contentsline {section}{\numberline {5.8}Qualitative results}{93}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Conclusion}{97}{section.5.9}% 
+\contentsline {paragraph}{Research Question 2:}{98}{paragraph*.88}% 
+\contentsline {chapter}{\numberline {6}Translating Idiomatic Expressions}{99}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Introduction and research questions}{99}{section.6.1}% 
+\contentsline {paragraph}{Research Question 3:}{99}{paragraph*.89}% 
+\contentsline {paragraph}{Organization.}{100}{paragraph*.90}% 
+\contentsline {section}{\numberline {6.2}Idiomatic expressions}{100}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Idiom identification}{101}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Idiom translation}{101}{subsection.6.2.2}% 
+\contentsline {section}{\numberline {6.3}Data collection}{103}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Translation experiments}{105}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}Idiom translation evaluation}{107}{section.6.5}% 
+\contentsline {subsection}{\numberline {6.5.1}BLEU}{107}{subsection.6.5.1}% 
+\contentsline {subsection}{\numberline {6.5.2}Modified unigram precision}{107}{subsection.6.5.2}% 
+\contentsline {subsection}{\numberline {6.5.3}Word-Level idiom accuracy}{109}{subsection.6.5.3}% 
+\contentsline {subsection}{\numberline {6.5.4}Evaluation results}{109}{subsection.6.5.4}% 
+\contentsline {section}{\numberline {6.6}Conclusion}{111}{section.6.6}% 
+\contentsline {paragraph}{Research Question 3:}{111}{paragraph*.99}% 
+\contentsline {chapter}{\numberline {7}Volatilities of Neural Models}{113}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Introduction and research questions}{113}{section.7.1}% 
+\contentsline {paragraph}{Research Question 3:}{113}{paragraph*.100}% 
+\contentsline {paragraph}{Organization.}{114}{paragraph*.101}% 
+\contentsline {section}{\numberline {7.2}Noisy text translation}{114}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Volatility in machine translation}{114}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}Variation generation}{115}{section.7.4}% 
+\contentsline {subsection}{\numberline {7.4.1}Experimental setup}{117}{subsection.7.4.1}% 
+\contentsline {paragraph}{RNN}{118}{paragraph*.105}% 
+\contentsline {paragraph}{Transformer}{118}{paragraph*.106}% 
+\contentsline {section}{\numberline {7.5}Unexpected and erroneous changes}{118}{section.7.5}% 
+\contentsline {subsection}{\numberline {7.5.1}Deviations from original translation}{118}{subsection.7.5.1}% 
+\contentsline {subsection}{\numberline {7.5.2}Oscillations of variation in translations}{119}{subsection.7.5.2}% 
+\contentsline {subsection}{\numberline {7.5.3}The effect of volatility on translation quality}{121}{subsection.7.5.3}% 
+\contentsline {subsection}{\numberline {7.5.4}Generalization and compositionality}{123}{subsection.7.5.4}% 
+\contentsline {section}{\numberline {7.6}Conclusion}{124}{section.7.6}% 
+\contentsline {paragraph}{Research Question 3:}{125}{paragraph*.114}% 
+\vspace \bigskipamount 
+\contentsline {chapter}{\numberline {8}Conclusions}{127}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Main findings}{128}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Future work}{134}{section.8.2}% 
+\contentsline {paragraph}{Are evaluation metrics for generation tasks still adequate?}{134}{paragraph*.115}% 
+\contentsline {paragraph}{How can we learn complex nuances and structures of language?}{134}{paragraph*.116}% 
+\contentsline {paragraph}{How compositional are sequence-to-sequence models?}{134}{paragraph*.117}% 
+\contentsline {chapter}{Bibliography}{137}{chapter*.118}% 
+\contentsline {chapter}{Summary}{157}{chapter*.119}% 
+\contentsline {chapter}{Samenvatting}{159}{chapter*.120}% 

@@ -1,0 +1,84 @@
+% !TEX root = thesis-main.tex
+
+% Include list of notation
+%\chapter*{List of Notation}
+%\addcontentsline{toc}{chapter}{List of Notation}
+%\markboth{List of Notation}{List of Notation}
+
+
+% Include the bibliography
+
+% Do some formatting of the chapter title and page headers
+% Set the item separation to 0 (saves a few pages)
+\renewcommand{\bibsection}{\chapter{Bibliography}}
+\renewcommand{\bibname}{Bibliography}
+\markboth{Bibliography}{Bibliography}
+\renewcommand{\bibfont}{\footnotesize}
+\setlength{\bibsep}{0pt}
+
+% Include the actual bib file
+% Add the chapter to the ToC (it doesn't happen automatically if you loose the chapter number)
+\bibliographystyle{abbrvnat}
+\bibliography{thesis_clean}
+
+
+
+% Include abstract(s)
+
+\chapter{Summary}
+
+Neural networks learn patterns from data to solve complex problems.
+To understand and infer meaning in language, neural models have to learn complicated nuances.
+Discovering distinctive linguistic phenomena from data is not an easy task. 
+For instance, lexical ambiguity is a fundamental feature of language which is challenging to learn. 
+Even more prominently, inferring the meaning of rare and unseen lexical units is difficult with neural networks. 
+Meaning is often determined from \textit{context}.
+With context, languages allow meaning to be conveyed even when the specific words used are not known by the reader. 
+To model this learning process, a system has to learn from a few instances in context and be able to generalize well to unseen cases.
+Neural models use a sizable amount of data that often consists of contextual instances to learn patterns.
+The learning process is hindered when training data is scarce for a task.
+Even with sufficient data, learning patterns for the long tail of the lexical distribution is challenging. 
+
+In this thesis, we focus on understanding certain potentials of contexts in neural models and design augmentation models to benefit from them. 
+We focus on machine translation as an important instance of the more general language understanding problem. 
+To translate from a source language to a target language, a neural model has to understand the meaning of constituents in the provided context and generate constituents with the same meanings in the target language.
+This task accentuates the value of capturing nuances of language and the necessity of generalization from few observations.
+The main problem we study in this thesis is what neural machine translation models learn from data and how we can devise more focused contexts to enhance this learning.
+First, we study how document-level contexts aid in distinguishing different meanings of a word. 
+Second, we investigate how translation models exploit context to learn and transfer meaning and show that different and diverse contexts resolve various obstacles of translation.
+Third, we examine under which conditions the observed context in the data is not enough for inferring meaning and capturing various linguistic phenomena. 
+
+Looking more in-depth into the role of context and the impact of data on learning models is essential to advance the Natural Language Processing (NLP) field. 
+Understanding the importance of data in the learning process and how neural network models interact with and benefit from data can help develop more accurate NLP systems. 
+Moreover, it helps highlight the vulnerabilities of current neural networks and provides insights into designing more robust models.
+
+% Add at least a Dutch one, the English one could also go on the back cover
+% Again, add the chapter to the ToC
+\chapter{Samenvatting}
+
+Neurale netwerken zijn computermodellen die patronen leren uit data, om zo complexe problemen op te lossen.
+Om betekenis in taal te begrijpen en af te leiden, moeten neurale netwerken ingewikkelde nuances leren.
+Voorbeelden van taalkundige fenomenen die niet gemakkelijk zijn voor een neuraal netwerk, zijn 
+\textit{lexicale ambigu\"{i}teit} (woorden met meerdere betekenissen) en zeldzame of nieuwe woorden die het neurale model niet of slechts enkele keren heeft gezien in de trainingsdata.
+%
+De betekenis van zeldzame of ambigue woorden hangt af van de context waarin ze voorkomen. Door middel van context kunnen talen betekenis overbrengen, zelfs als de lezer bepaalde gebruikte woorden niet kent.
+Om dit leerproces te modelleren, moet een systeem leren van slechts enkele voorbeelden in een bepaalde context en moet het goed kunnen generaliseren naar ongeziene gevallen.
+Neurale modellen gebruiken een aanzienlijke hoeveelheid data, vaak bestaande uit voorbeelden in context die gebruikt worden om patronen te leren.
+Als er maar weinig trainingsdata voor een bepaalde taak is, wordt het leerproces gehinderd, maar ook als er genoeg data beschikbaar is, blijft het leren van zeldzame woorden een uitdaging.
+
+
+De focus van dit proefschrift ligt op het begrijpen van de mogelijkheden die context biedt voor neurale modellen om hier vervolgens van te kunnen profiteren.
+We richten ons op machinaal vertalen als een belangrijk voorbeeld van het meer algemene probleem van taalbegrip.
+Om te vertalen van een brontaal naar een doeltaal, moet een neuraal model de betekenis van woorden of zinnen in de gegeven context begrijpen en woorden of zinnen met dezelfde betekenis genereren in de doeltaal.
+Deze taak benadrukt het belang van het vastleggen van nuances in taal en de noodzaak om te kunnen generaliseren vanuit slechts een beperkt aantal observaties.
+%
+Het belangrijkste probleem dat we in dit proefschrift bestuderen is wat neurale machinale vertaalmodellen leren van data en hoe we meer gefocuste contexten kunnen bedenken om dit leerproces te verbeteren.
+Allereerst bestuderen we hoe context op documentniveau kan helpen bij het onderscheiden van verschillende betekenissen van een woord.
+Daarnaast onderzoeken we hoe vertaalmodellen context gebruiken om betekenis te leren en over te dragen en laten we zien dat het gebruik van verschillende contexten een aantal obstakels tijdens het vertalen kan overwinnen.
+Ten slotte onderzoeken we onder welke voorwaarden de waargenomen context in de data onvoldoende is om betekenis af te kunnen leiden en bepaalde taalkundige fenomenen te vatten.
+
+
+Door dieper in te gaan op op de rol die context speelt en de impact van data op het leren van modellen, draagt het werk in dit proefschrift bij aan de vooruitgang van Natural Language Processing (NLP).
+Het is belangrijk dat we goed begrijpen hoe neurale modellen interageren met en profiteren van data, om zo accuratere NLP-systemen te ontwikkelen.
+Bovendien helpt het onderzoek in dit proefschrift om de kwetsbaarheden van huidige neurale netwerken te benadrukken en geeft het inzicht in hoe robuustere modellen ontworpen kunnen worden.
+

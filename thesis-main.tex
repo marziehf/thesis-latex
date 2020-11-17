@@ -1,0 +1,241 @@
+\documentclass[b5paper,10pt]{book}
+
+% PhD thesis style + page dimensions
+\usepackage{phdthesis}
+\usepackage[
+  paperwidth=17cm
+  ,paperheight=24cm
+  ,inner=2.6cm
+  ,outer=2.3cm
+  ,top=2.3cm
+  ,bottom=2.3cm
+]{geometry}
+
+
+% Include all your packages
+\usepackage{graphicx,times}
+\usepackage[hyphens]{url}
+\usepackage{tabularx,amsmath}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{amssymb}
+%\usepackage[square,comma,numbers,sort&compress,sectionbib]{natbib}
+\usepackage[comma,compress,sectionbib]{natbib}
+%\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{enumerate}
+\usepackage{supertabular}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{times}
+\usepackage{microtype}
+\usepackage{tabularx,amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+\usepackage{statex}
+\usepackage{algorithm}
+\usepackage{paralist}
+\usepackage{flushend}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{keyval}
+\usepackage{rotating}
+\usepackage{acronym}
+\usepackage{adjustbox}
+\usepackage{latexsym}
+\usepackage{epigraph}
+
+\usepackage{lipsum}
+\usepackage[noend]{algpseudocode}
+
+\usepackage{bm}
+\usepackage{dblfloatfix}    % To enable figures at the bottom of page
+\usepackage{capt-of}
+\usepackage{mathabx}
+\usepackage [autostyle, english = american]{csquotes}
+\usepackage{tabularx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots, pgfplotstable}
+\usetikzlibrary{patterns}
+
+\usepackage[labelfont=bf]{caption}
+%\usepackage[tableposition=top]{caption}
+
+\usepackage{tcolorbox,varwidth}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\usepackage{array}
+\usepackage{stackengine}
+
+\usepackage{collcell}
+\usepackage{pgf}
+
+\usepackage{arydshln}
+
+\usepackage{verbatim}
+\MakeOuterQuote{"}
+\mathchardef\mhyphen="2D
+
+\newcommand{\checkRight}{\textcolor{black}{\checkmark}}
+\newcommand{\checkWrong}{\textcolor{black}{$\boxtimes$}}
+\newcommand\given[1][]{\:#1\vert\:}
+\newcommand{\code}[1]{\texttt{#1}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\softmax}{softmax}
+\DeclareMathOperator*{\topk}{topK}
+\DeclareMathOperator*{\concat}{concat}
+\DeclareMathOperator*{\gammaa}{Gamma}
+\DeclareMathOperator*{\attention}{Attention}
+\DeclareMathOperator*{\countop}{count}
+\DeclareMathOperator*{\unigram}{unigram}
+\DeclareMathOperator*{\gram}{-gram}
+\DeclareMathOperator*{\bleu}{BLEU}
+\DeclareMathOperator*{\bp}{BP}
+\DeclareMathOperator*{\similarity}{Sim}
+\newcommand{\vt}[1]{\bm{\mathbf{#1}}}
+
+% Some command for the writing phase
+\newcommand{\todo}[1]{\textcolor{red}{#1}}  %todo's in red
+\newcommand{\new}[1]{\textcolor{blue}{#1}} %new content in blue
+\newcommand{\gap}{\vspace{2mm}}
+\newcommand{\BibTeX}{B{\sc ib}\TeX}
+\newcommand{\secref}[1]{\StrSubstitute{\getrefnumber{#1}}{.}{ }}
+\renewcommand{\arraystretch}{1.2} %row spacing of all tables is increased here
+
+\definecolor{gr}{HTML}{A6CEE3}
+\definecolor{blu}{HTML}{1C9099}
+
+\definecolor{mygray}{gray}{0.6}
+\definecolor{tablegray}{gray}{0.9}
+
+\newcommand{\MF}[1]{{\color{blue}#1}}
+\newcommand{\MFz}[1]{{\color{red}#1}}
+
+% Some PDF metadata
+\usepackage[backref=page]{hyperref}
+\hypersetup{%
+pdfborder = {0 0 0},
+pdftitle = {Understanding and Enhancing Context for MT},
+pdfsubject = {PhD Thesis},
+pdfkeywords = {machine translation, context, neural models, NLP},
+pdfauthor = {Marzieh Fadaee}
+}
+\usepackage{bookmark}
+
+%\urlstyle{sf}
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+
+% Back references ("Cited on page x")
+\renewcommand*{\backref}[1]{} 
+\renewcommand*{\backrefalt}[4]{%
+\ifcase #1
+\or (Cited on page~#2.)  %
+\else 
+(Cited on pages~#2.)  
+\fi
+}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+\definecolor{mygray}{gray}{0.4}
+
+\newcolumntype{R}[2]{%
+    >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+    l%
+    <{\egroup}%
+}
+\newcommand*\rot{\multicolumn{1}{R{90}{1em}}}% no optional argument here, please!
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\renewcommand{\fboxsep}{1pt}
+
+\setlength{\dashlinedash}{0.2pt}
+\setlength{\dashlinegap}{1.5pt}
+\setlength{\arrayrulewidth}{0.3pt}
+
+% This selects the amount of color to use
+\newcommand*{\MinNumber}{0}%
+\newcommand*{\MaxNumber}{1}%
+\newcommand{\ApplyGradient}[1]{%
+  \pgfmathsetmacro{\PercentColor}{30.0*(#1-\MinNumber)/(\MaxNumber-\MinNumber)}%
+  %\textcolor{black!\PercentColor}{#1}
+  \edef\x{\noexpand\cellcolor{black!\PercentColor}}\x\textcolor{black}{#1}%
+}
+\newcolumntype{S}{>{\collectcell\ApplyGradient}{c}<{\endcollectcell}}
+
+\renewcommand{\baselinestretch}{1.1} 
+
+\newcommand{\grade}[1]{%
+  \par
+  \vspace*{-\parskip}% Correct insertion of paragraph skip due to \par
+  {\raggedleft #1\par}}
+  
+% Start the document
+\begin{document}
+
+% Start the front matter
+% Latex takes care of Roman page numbering ( I, II, III, IV, etc) for front matter
+% Front matter, acknowledgements, and ToC
+\frontmatter
+\input{thesis-front}
+\input{to-page} %print version
+\input{acknowledgements} %print version
+\tableofcontents
+
+% Define some commonly used acronyms. 
+%\acrodef{IR}{information retrieval}
+
+% Start the main matter
+% Here, Latex will use Arabic page numbering (1, 2, 3, etc.)
+% Add all your chapters:
+%  1. introduction
+%  2. background/ related work
+%  3. experimental methodology
+%  4,5,X. technical chapters
+%  X+1. conclusion
+\mainmatter
+\input{01-introduction/main}
+
+\input{02-background/main}
+
+\input{03-research-01/main}
+
+\input{04-research-02/main}
+
+\input{05-research-03/main} 
+
+\input{06-research-04/main}
+
+\input{07-research-05/main}
+
+\bookmarksetup{startatroot} % Lift from parts
+\addtocontents{toc}{\bigskip} % skip
+
+\input{08-conclusions/main}
+
+
+% Start the back matter
+% Numbering stays the same
+% Add 1) bibliography, 2) abstract (Dutch/English)
+\backmatter
+\input{thesis-back}
+
+%% Close
+\end{document}
