@@ -1,0 +1,44 @@
+% !TEX root = thesis-main.tex
+
+\section{Thesis overview}
+\label{section:introduction:overview}
+
+After this introductory chapter, the remainder of this thesis consists of a background chapter (Chapter~\ref{chapter:background}), five research chapters (Chapters~\ref{chapter:research-01}-\ref{chapter:research-05}), and a concluding chapter (Chapter~\ref{chapter:conclusions}). 
+Below we present a high-level overview of the main content of each of these chapters. 
+
+
+\paragraph{Chapter~\ref{chapter:background}: Background} provides an introduction to the neural machine translation (NMT) paradigm used in this thesis. We briefly review the core models, the training and test data required, and the learning and optimization strategies we employ. We also discuss different representation learning approaches. Additionally, we describe the basic experimental settings for our systems. 
+Finally, we provide an overview of evaluation metrics used in this thesis.  
+
+\paragraph{Chapter~\ref{chapter:research-01}: Representation learning using documental context } introduces the concept of learning multiple representations per word to capture lexical ambiguity in a language. 
+We first investigate the influence of document topics on distinguishing different meanings of a word, then propose various models to integrate topical information in representation learning, and finally analyze the performance of these contextual representations and compare them to single representations. 
+Our findings in in this chapter provide answers to \textbf{\ref{rq:topic}}.
+
+\paragraph{Chapter~\ref{chapter:research-02}: Data augmentation for rare words} focuses on the impact of additional context in influencing translation quality of rare words. 
+Notably, we use language models to substitute rare words in existing bilingual contexts. 
+We augment the translation model with the newly generated data and as a result, improve both the generation frequency and the translation quality of rare words.
+Our results in this chapter provide answers to \ref{rq:tda1} and \ref{rq:tda2}.
+
+\paragraph{Chapter~\ref{chapter:research-03}: Data augmentation based on model failure} examines the influence of augmenting data with diverse context for difficult words on translation models. 
+We first inspect the learning process of state-of-the-art translation models and identify where they are not confident in their predictions. 
+After further analyzing the words that translation models have difficulties in learning, we introduce an augmentation approach to target these words.
+We improve upon an existing data augmentation approach by devising new contexts for low-confidence words.
+Our results in this chapter provide an answer to \ref{rq:bt1}~and \ref{rq:bt2}.
+
+\paragraph{Chapter~\ref{chapter:research-04}: Analyzing idiomatic expressions} investigates translation errors prevalent in current models. 
+First, we identify multiword expressions that are syntactically or semantically idiosyncratic and challenging to translate. 
+Next, we create a parallel corpus consisting of sentence pairs with idiomatic expressions.
+For this study, we introduce new error analysis measures to evaluate the translation quality of these expressions individually.
+We provide empirical answers to \ref{rq:id1} and \ref{rq:id2} in this chapter.
+
+\paragraph{Chapter~\ref{chapter:research-05}: Analyzing volatility} investigates the robustness of state-of-the-art translation models to variants in source sentences. 
+We propose an effective technique to generate modifications in test sentences while avoiding the introduction of semantic or syntactic noise.
+Investigating the translation outputs of different models on the modified test corpus reveals the extent of volatility that exists in translation models.
+We perform an analysis of robustness of our models to answer \ref{rq:vol1} and \ref{rq:vol2}.
+
+%Finally, we summarize findings from all research chapters in the concluding chapter:
+
+\paragraph{Chapter~\ref{chapter:conclusions}: Conclusion} concludes this thesis by revisiting the research questions and their corresponding answers. 
+We also reflect on future research directions and on what the community can learn from the findings in this thesis.
+
+

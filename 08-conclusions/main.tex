@@ -1,0 +1,316 @@
+% !TEX root = thesis-main.tex
+
+\chapter{Conclusions}
+\label{chapter:conclusions}
+
+
+In this thesis, we explored the role of context in machine translation as well as lexical modeling, using deep learning frameworks.
+With the increase of computational power of machines and the availability of data, progress in deep learning has focused on developing more advanced models. 
+In fact, with the increasing amount of training data, the performance of many computer vision and language understanding tasks has increased significantly. 
+%
+In this thesis, we are motivated by \textit{what} these models learn from the available data and \textit{how} we can use this information to resolve linguistic challenges that arise from statistical learning from data. 
+Specifically, we investigated the influence of contextual cues in understanding different words and proposed several approaches that improve how these models learn from context.
+
+Firstly, we looked into ambiguous words and studied how document-level context assists in distinguishing different meanings of a word. 
+Next, we focused on the influence of context in the bilingual setting of machine translation. 
+We examined how neural translation models use context to learn and transfer meaning and showed that by diversifying data for difficult words, we can improve translation quality.
+In order to identify difficult words, we first looked at the data distribution and specifically targeted rare words.
+Since there is a lack of diverse contexts in the training data for rare words, the translation of them is challenging.
+Next, we investigated the failures of a trained model to identify difficult words.
+These difficult words are words that the model has low confidence in predicting after training on a sizable amount of data.
+We identified difficult words for an NMT model and performed data augmentation targeting these words. 
+By creating new contexts for difficult words, we improved the generation capability of the NMT model and the translation quality.
+
+Next, we addressed the shortfalls of relying only on the contexts observed in the training data to learn the meanings of words. 
+We examined under which conditions context is not enough for capturing various linguistic phenomena. 
+In particular, we studied the interesting case of idiom translation and showed that current NMT models often fail to capture such nuances.
+Neural networks optimize the learning process on the available data and the lack of data for complex linguistic phenomena such as idiom translation is an obstacle for developing stronger models. 
+
+Finally, we raised more general questions about the learning capabilities of current state-of-the-art translation models.
+We analyzed how these models fail unexpectedly even in cases where there are no evident complex linguistic phenomena. 
+By introducing simple contextual modifications, we identified an underlying generalization problem of state-of-the-art translation models.
+
+In the following section, we revisit our research questions and summarize the main findings of this thesis.
+We then propose a number of questions that remain open for further exploration. 
+
+\section{Main findings}
+
+%Concretely, we answered the following research questions in this thesis:
+
+In Chapter~\ref{chapter:research-01}, we started with a preparatory question on the importance of context when learning word representations for difficult words.
+Going past local neighboring words, we looked at document-level contexts by asking:
+
+\begin{enumerate}[label=\textbf{RQ1.\arabic* },wide = 0pt, leftmargin=2em]
+\setlength\itemsep{1em}
+\item \acl{rq:topic1}  \label{rq:topic1}
+%\medskip
+
+\noindent To answer this question, we investigated whether document-level information is an adequate contextual cue to help distinguish between different senses of a word.
+We experimented with a hierarchical Dirichlet process for modeling document topics which generated two sets of distributions that we used in our methods: distributions over topics for words in the vocabulary and distributions over topics for documents in the corpus. 
+We observed that these distributions distinguish between senses of words. 
+Next, we examined how we can leverage this information to learn word representations by asking:
+
+\item \acl{rq:topic2}  \label{rq:topic2}
+
+\medskip
+
+\noindent We found that the distribution over topics is different for different senses of an ambiguous word. 
+This motivated us to combine this distribution with the Skipgram model to provide information on word senses to the embeddings. 
+To achieve this, we devised three model variations that learned multiple representations per word based on the assigned topic in different contexts. 
+We then evaluated these embeddings by asking: 
+
+\item \acl{rq:topic3}  \label{rq:topic3}
+
+\medskip
+
+\noindent We evaluated word embeddings on the word similarity task and observed slight improvements under different settings. 
+However, there was no clear winner across all data sets. 
+Since word similarity data sets consider individual words in isolation and do not provide any contexts, we then evaluated the embeddings in a more context-aware setting.
+Our evaluation on the lexical substitution task showed that topic distributions capture word senses to a large extent. 
+Moreover, we obtained statistically significant improvements in a lexical substitution task without using any syntactic information.  
+The best results were achieved by our HTLE model which learns topic-sensitive representations by hard-labeling topics to target words and not using generic representations. 
+%We observed that topic-sensitive representations captured senses of the words to some extent.
+
+\end{enumerate}
+
+These three sub-questions together allowed us to answer our first main research question: 
+
+\begin{enumerate}[label=\textbf{Research Question \arabic*:},ref={RQ\arabic*},wide = 0pt]
+\setlength\itemsep{1em}
+
+\item \acl{rq:topic} 
+
+\medskip
+
+ \noindent 
+ Our experiments showed that we can use document-level topic distribution to improve word representation learning.
+To summarize, we introduced an approach in Chapter~\ref{chapter:research-01} to learn topic-sensitive word representations that exploits the document-level context of words and does not require annotated data or linguistic resources. 
+Additionally, we also learned representations for topics and our qualitative analyses showed that words belonging to the same topics also tend to be clustered together.
+
+Having observed the effectiveness of wider context in capturing polysemy in word embeddings, we investigated in Chapter~\ref{chapter:research-02} the impact of context on the translation of difficult words. 
+We first asked:
+
+\begin{enumerate}[label=\textbf{RQ2.\arabic* },wide = 0pt, leftmargin=2em]
+\setlength\itemsep{1em}
+\item \acl{rq:tda1} \label{rq:tda1}
+
+\medskip
+
+\noindent 
+By leveraging language models trained on large amounts of monolingual data, we generated new sentence pairs containing rare words in new contexts. 
+We first confirmed that the translation performance is primarily affected by low-frequency and out-of-vocabulary words. 
+Our analysis in Section~\ref{tda:analysis} further showed that the poor translation quality of rare words is a result of a lack of diverse training examples. 
+To address this problem, we proposed a method to automatically generate new contexts for these words.
+Next, we used this data to augment the parallel corpus used to train the translation model and re-trained the entire system. 
+Our results showed that this approach improves the representations of rare words learned by the model and consequently increases the number of times the model generates these words correctly. 
+
+We observed substantial improvements in simulated low-resource English$\rightarrow$German and German$\rightarrow$English settings.
+%This is a relatively simple, yet effective approach to augment parallel training data for low-resource language pairs. 
+
+%In answering this question in Chapter~\ref{chapter:research-02}, we observed the impact of additional \textit{training} data on the translation of rare words.
+\medskip
+
+A natural follow-up question is whether we can perform augmentation during test time as well. So we asked:
+
+
+\item \acl{rq:tda2} \label{rq:tda2}
+
+\medskip
+
+\noindent 
+%We first demonstrated why our previously proposed method is not viable at test time: 
+Our experiments showed that augmentation at test time reduces the number of \texttt{unk}s in the output and results in more fluent sentences. 
+We cannot modify a source sentence resulting in a change of meaning without modifying the reference translation as well. 
+Since we do not have access to the reference translations during inference, any alteration we made to the source sentence must keep the meaning of the sentence unchanged. 
+In Section~\ref{tda:semantic}, we introduced a substitution via paraphrasing method to replace rare and out-of-vocabulary words in source sentences. We used different paraphrase knowledge resources to do this: WordNet, PPDB, GermaNet, CBOW, and our embedding approach proposed in Chapter~\ref{chapter:research-01}.
+We gained improvements in BLEU scores while significantly reducing the number of \texttt{unk} generated in the target output. 
+
+\medskip
+
+In Chapter~\ref{chapter:research-03}, we continued addressing our second research question by further analyzing the effectiveness of additional context for learning the meaning of a word.
+Rather than looking at the distribution of the training data, we investigated the behaviour of a neural MT system during training by asking:
+
+
+\item \acl{rq:bt1} \label{rq:bt1}
+
+\medskip
+
+\noindent 
+We found that signals from failures of the model can be used to identify where the model is not learning satisfactorily.
+To investigate this question we first explored different aspects of other influential augmentation methods, in particular back-translation, in Section~\ref{btbtanalysis}. 
+Our analyses showed that the quality of the synthetic data generated with a reasonably good model has a small impact on the effectiveness of back-translation, but that the ratio of synthetic to real training data plays a more important role.
+With a higher ratio, the model becomes biased towards noise in the synthetic data and unlearns the parameters.
+Next, we looked into which words benefit most from additional back-translated data.
+We observed that words with high prediction losses in the original model undergo the most changes after training with synthetic data. 
+Our findings showed that with the addition of contexts for words with high prediction loss, we can increase the overall accuracy of the model.
+
+Equipped with this information, we addressed the following question:
+
+\item \acl{rq:bt2} \label{rq:bt2}
+
+\medskip
+
+\noindent In Section~\ref{bttarget}, we proposed our sampling approach targeting words that are difficult to predict.
+These words benefit the most from a more diverse context after augmentation.
+Our approach included several variants of using the prediction loss for identifying relevant sentences to back-translate.
+We also used the contexts of difficult words by incorporating context similarities as a feature to sample sentences for back-translation.
+We discovered that using the prediction loss to identify weaknesses of the translation model and providing additional synthetic data targeting these shortcomings improved the translation quality of German$\rightarrow$English and English$\rightarrow$German translations. % by up to 1.7 {BLEU} points.
+%Finally, our proposed frequency-based sampling approach remains a simple, yet effective strategy that is hard to outperform.
+
+\end{enumerate}
+
+Having discussed our specific sub-questions, we return to our more general question:
+
+\item \acl{rq:tdabt}  \label{rq:tdabt}
+
+\medskip
+
+ \noindent In Chapters~\ref{chapter:research-02} and~\ref{chapter:research-03}, we investigated the effect of the availability of data, where \textit{the lack of} diverse contexts during training causes difficulties.
+Rare words, by definition, suffer from a lack of diverse context. 
+Our studies showed that both translating and generating rare words is a challenging task with NMT models. 
+We then continued with the impact of diverse contexts on translation quality in NMT. 
+In particular, we focus on the back-translation method and the synthetic contexts that are generated with a reverse trained NMT model. 
+We investigated this method and explored alternatives to select the monolingual data in the target language that is to be back-translated into the source language to improve translation quality.
+Both data augmentation approaches proposed in Chapters~\ref{chapter:research-02} and~\ref{chapter:research-03} lead to improvement of translation quality by generating diverse contexts for training.
+
+\medskip
+
+Continuing our research on the impact of context on the quality of NMT models, we subsequently investigated some of its limitations. 
+In Chapter~\ref{chapter:research-04}, we looked into idiom translation with neural models.
+Since the literal meaning of the components is different than the idiomatic meaning of the entire expression, the model needs to know in which context to translate it literally and in which idiomatically. 
+Neural MT, in particular, has been shown to perform poorly on idiom translation despite its overall strong advantage over previous MT paradigms \citep{isabelle2017challenge}. 
+
+We began by asking:
+
+\begin{enumerate}[label=\textbf{RQ3.\arabic* },wide = 0pt, leftmargin=2em]
+\setlength\itemsep{1em}
+\item \acl{rq:id1} \label{rq:id1}
+
+\medskip
+
+\noindent One of the main challenges of studying idiom translation is the lack of dedicated and labeled data for evaluation and analysis.
+As an essential step towards answering this question, we required a test set explicitly tailored to evaluating idiom translation quality.
+To this end, we harvested a parallel data set for training and testing idiom translation for German$\rightarrow$English and English$\rightarrow$German.
+The test sets included sentences with at least one idiom on the source side while the training data is a mixture of idiomatic and non-idiomatic sentences with labels to distinguish between the two.
+Using our new resources, 
+we performed preliminary translation experiments and proposed different metrics to evaluate the quality of idiom translation.
+%Experiments on this test set showed that although PBMT achieved a lower overall BLEU score in comparison with NMT, it scored higher on our metrics which explicitly measure idiom translation quality. 
+
+\medskip
+
+We then evaluated the translation quality of neural models on our idiom translation test set:
+
+\item \acl{rq:id2} \label{rq:id2}
+
+\medskip
+
+\noindent We observed that the NMT model achieved a higher overall BLEU score but scored lower in idiom translation metrics.
+This is in agreement with previous works on investigating idioms as one of the weak points of neural models \citep{shao-etal-2018-evaluating}.
+Since there are no explicit signals in the sentence to identify when a phrase is to be translated literally and when it is to be translated idiomatically, we examined whether such a signal would help. 
+Our experiments in Section~\ref{idevalus} showed that adding a flag during training to indicate idiomatic use improves the quality of idiom translation in general.
+However, the overall BLEU score declined slightly.
+We concluded that there is little correlation between overall BLEU scores and the localized precision of idiomatic phrase translation.
+Our experiments showed that idiom translation can benefit from having a tailored development and test set and more specific metrics for evaluation. 
+
+
+\noindent Our next research question focused on other cases where NMT models fail to generate a correct translation given the observed context. 
+In Chapter~\ref{chapter:research-05}, we first examined how to expose this shortcoming in translation models by asking:  
+
+\item \acl{rq:vol1} \label{rq:vol1}
+
+\medskip
+
+\noindent We studied the behaviour of NMT models and observed an unexpected but recurring pattern: A model that translates a given phrase correctly in a sentence fails to translate it correctly in another sentence which is very similar to the first.
+To explain these observations, we introduced new quantitative metrics measuring such unexpected changes. 
+These metrics measured oscillations in translations of very similar sentences.  
+Our experiments further showed that even with minor modifications preserving the grammaticality and plausibility of the sentence, we can effectively identify a surprising number of cases where the translations of extremely similar sentences are very different. 
+By further manual inspection, we observed that these differences included `changes of word forms', `reorderings of phrases', `changes by paraphrasing', `adding or dropping words from the translations', and `semantically different translations'. 
+We concluded that with contextual modifications during testing, we can reveal a lack of robustness of translation models.
+
+\medskip
+
+Knowing this shortcoming of NMT models, we then asked:
+
+\item \acl{rq:vol2} \label{rq:vol2}
+
+\medskip
+
+\noindent We created a test set from our the sentence variation method proposed in Section~\ref{secsentvar}. 
+Next, we examined the robustness of current NMT models with this new test data and various evaluation metrics. 
+Our analyses showed that both RNN and Transformer models exhibit volatile behaviour with changes in translation quality.
+We observed that these models fall short of capturing the compositional nature of the language, which confirms previous findings on the lack of compositional behaviour of NMT systems \citep{886a37b5fc2f43449e4bca3b5557e3ae}.
+Additionally, we found that current evaluation sets do not spot the unexpected patterns we identified with our test data. 
+
+
+\end{enumerate}
+
+\medskip
+
+These answers allow us to return to our more general question:
+
+\item \acl{rq:vol} \label{rq:vol}
+
+\medskip
+
+\noindent 
+To study the influence of the observed context, we investigated how NMT models handle translating \textit{non-compositional} and \textit{compositional} events.
+Our findings in Chapters~\ref{chapter:research-04} and~\ref{chapter:research-05} showed that even well-performing models with high translation quality still suffer from a number of problems in both cases. 
+
+First, we looked into non-compositional multiword expressions or idioms.
+Idiom translation is one of the more difficult challenges of machine translation. 
+To study this, in Section~\ref{idiomdata}, we created a data set for training and testing idiom translation.
+We found that with the observed context, current NMT models struggle with translating non-compositional expressions. PBMT models on the other hand, despite underperforming on general-purpose data sets, achieve better idiom translation quality.
+
+Next, we investigated the impact of observed context on translating compositional expressions.
+To achieve this, we defined a test set and evaluation metrics and investigated the NMT model's behaviour in this particular setting. 
+In creating this test set, we focused on modifications that do \textit{not} explicitly introduce new challenges for the translation model. 
+Large oscillations in translations in the test set are an indication that the models do not capture composition in a systematic way, but often rely on memorized patterns to translate new sentences.
+In Section~\ref{secsentvar}, we proposed a simple approach to modify standard test sentences without introducing noise and hence generating semantically and syntactically correct variations.
+Our findings showed that even well-performing models with high translation quality are prone to this problem and more extensive evaluations are necessary for assessing a system. 
+We believe that our insights will be useful for developing more robust NMT models. 
+
+
+\end{enumerate}
+
+\section{Future work}
+
+In this thesis, we studied how context is used by neural models to learn and generate words in a language and proposed methods to improve it.
+%We chose machine translation for the experiments as a good representative for evaluating language understanding.
+While this work highlighted the potentials of neural translation models in learning from data and studied some cases where they fall short, there are still many questions left to explore.
+Here, we discuss a few of these questions:
+
+ \paragraph{Are evaluation metrics for generation tasks still adequate?}
+ 
+ 
+ Since manual evaluation is very expensive, several automatic metrics have been designed to evaluate generation tasks as described in Section~\ref{bgexp}, including BLEU \citep{Papineni2001}, ROUGE \citep{lin-2004-rouge}, METEOR \citep{banerjee-lavie-2005-meteor}, and TER \citep{Snover06astudy}.
+
+These metrics compare an automatically generated candidate with a reference that is created manually. 
+Matching the words in the candidate and reference gives us useful and reproducible results on the performance of a system and has helped advance tasks such as machine translation.
+However, with the improvements in generation models, the errors in the candidates are becoming increasingly subtle and idiosyncratic and existing metrics are not fully capable of highlighting them.
+While this issue has recently been addressed by \citet{chen-etal-2019-evaluating} and \citet{ribeiro-etal-2020-beyond}, further research on approaches and metrics that highlight deeper problems in generation models and go
+beyond $n$-gram based matching are necessary. 
+ 
+ 
+\paragraph{How can we learn complex nuances and structures of language?}
+
+Many neural models still struggle with complex language structures, such as idiomatic expressions, in their respective tasks.
+One reason is that many interesting phenomena in language do not occur frequently. 
+As a result, exclusively data-driven models fail to capture these nuances. 
+One way of addressing this issue requires constructing data sets that are both adequately large and of high quality. 
+With the availability of data sets that target specific linguistic phenomena, the process of learning them will be measurable and developing models targeting these challenges will be more accessible.  
+
+\paragraph{How compositional are sequence-to-sequence models?}
+
+Compositionality is the ability to construct larger linguistic expressions by combining simpler parts \citep{Frege1892,fodor1992holism}.
+Investigating the compositional behaviour of neural networks in real-world natural language problems is a challenging task. 
+
+Current NMT models deliver high average translation quality provided enough training data and a good training-test domain match. It is not entirely clear, though, how much of this success stems from learning the underlying compositional structure of the sentence.
+In general, many traits of neural models are still a black box which hinders advancements to some extent.  
+Recently, a few studies have focused on studying the level of compositionality in neural sequence-to-sequence models using toy data sets \citep{DBLP:journals/corr/abs-1711-00350,ijcai2020-708}.
+Creating evaluation paradigms to further analyze this aspect can potentially lead to a better understanding of the inner workings of these influential models.  
+
+
+
+
+
+

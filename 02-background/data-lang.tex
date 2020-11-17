@@ -1,0 +1,82 @@
+\section{Parallel and monolingual corpora} \label{databg}
+
+Neural models, and specifically neural translation models, rely heavily on training data. 
+The primary training data for learning translation models are parallel corpora, which are aligned texts in two or more languages. 
+These corpora are often paired at the sentence-level, ideally providing an exact translation of every sentence in the source and target language. 
+
+The quality of the translation system depends on the quality and the size of the training data. 
+Acquiring good-quality parallel corpora requires manual translation by professional translators and as a result is expensive.
+Examples of available parallel corpora gathered by experts in the domain include Europarl
+\citep{koehn2005europarl}, which is the proceedings of the European Parliament published on the web, and JRC-Acquis 
+\citep{steinberger2006jrc}, which is the total body of the European Union law applicable in the EU Member States.
+\citet{callisonburch-EtAl:2007:WMT} gathered News Commentary corpora which consist of political and economic commentary crawled from the web site Project Syndicate.
+This data is extracted every year for the translation task of the WMT conference \citep{barrault-EtAl:2019:WMT}. 
+
+Monolingual data, in comparison, are available in abundance for many languages. 
+Phrase-based machine translation models use monolingual corpora in the target language \citep{koehn-etal-2003-statistical, brants-etal-2007-large, koehn-etal-2007-moses} to improve the fluency of the generated translation \citep{lembersky-etal-2011-language}. 
+Monolingual parallel corpora of aligned complex-simple sentences are also used with pharse-based \citep{wubben-etal-2012-sentence,kajiwara-komachi-2016-building} and neural \citep{zhang-lapata-2017-sentence} models to learn to simplify text.
+The monolingual News Crawl corpus from WMT and many available corpora in the Linguistic Data Consortium (LDC)\footnote{\url{https://www.ldc.upenn.edu/}} are examples of commonly utilized data in machine translation.
+
+Vanilla NMT models typically do not use any monolingual data in their training. 
+In Chapters~\ref{chapter:research-02} and~\ref{chapter:research-03} of this thesis, we address this matter by focusing on the use of monolingual data for NMT.
+Recently there have been studies that propose various approaches for incorporating information from monolingual data in the models \citep{domhan-hieber-2017-using,burlot-yvon-2018-using,currey-heafield-2019-zero}. 
+\citet{currey2017copied} created a parallel corpus from monolingual data in the target language by copying it so that each source sentence is identical to its corresponding target sentence. With this simple technique, they observe improvements on relatively low-resource language pairs.
+Another category of approaches is to translate sentences from monolingual data and augment the bitext with the resulting pseudo parallel corpora. 
+This category of approaches is discussed in the following section.
+
+\subsection{Back-Translation in machine translation} \label{bgbtref}
+
+In this section, we introduce the conventional method of generating synthetic data, namely back-translation and its effectiveness in PBMT and NMT.
+Back-translation uses an intermediate MT model, trained on parallel data, to translate target monolingual data into the source language.
+The result of back-translation is a parallel corpus where the source side is synthetic MT output while the target is actual text written by humans.
+
+This technique is not bounded to neural networks, and prior to NMT models, it has been used in combination with PBMT. 
+\citet{Schwenk2008InvestigationsOL} proposes to translate large amounts of monolingual data with a PBMT system and use those as additional training data. They observe that this lightly-supervised training achieves improvements in translation quality.
+\citet{Rapp:2009:BSA:1667583.1667625} introduces the back-translation score as an alternative mean for the evaluation of PBMT models.
+He trains a translation model in both directions and evaluates the quality of the model by translating the target sentences back to the source language. 
+The score is therefore computed by comparing the back-translated sentence to the original source sentence. 
+As part of their experiments, \citet{tiedemann-etal-2016-phrase} note that back-translating sentences from monolingual news data and augmenting the parallel training data improves the translation quality of a PBMT system. 
+In these experiments, the models have to be re-tuned from scratch with the additional synthetic data.
+
+In the framework of NMT, \citet{sennrich-haddow-birch:2016:P16-11} show that back-translating sentences from monolingual data improves the performance of NMT models. 
+This approach of augmenting the training data has since become common practice in training NMT models. 
+\citet{pham2017karlsruhe} experimented with using domain adaptation methods to select monolingual data for back-translation based on the cross-entropy between monolingual data and the in-domain corpus \citep{axelrod2015class}, 
+but did not find any improvements over random sampling as initially proposed by \citet{sennrich-haddow-birch:2016:P16-11}.
+
+\citet{edunov-etal-2018-understanding} investigate back-translation in NMT at a large scale by adding hundreds of millions of back-translated sentences to the bitext.
+They study different methods for generating synthetic sentences and show that synthetic data based on sampling and noised beam search provides a stronger training signal than using pure beam.
+They observe that the generated corpora tend to stray away from the distribution of natural data.
+\citet{brants-etal-2007-large} suggest a distributed language model infrastructure, which allows direct integration into the hypothesis-search algorithm.  
+They observe that translation quality continues to improve with increasing language model size.
+\citet{Ueffing2007} use an iterative procedure that translates the monolingual source language data in each iteration and then re-trains the phrased-based translation model.
+They conclude that when bilingual training data are scarce, a PBMT system could be trained on a small amount of data and then iteratively improved by adding reliable translations of monolingual data to the training data. 
+
+\citet{NIPS2016_6469} observe that any machine translation task has a dual task, for instance, English$\rightarrow$French translation (primal) versus French$\rightarrow$English translation (dual). 
+They propose an approach based on reinforcement learning, where two agents, representing the primal and dual task, teach each other. 
+The agents leverage monolingual data by translating it forward to the other language and then translate backward to the original language.
+\citet{gulcehre2017integrating} propose two methods, shallow and deep fusion, for integrating a neural language model into an NMT system.
+They observe improvements by combining the scores of a neural language model trained on target monolingual data with an NMT system.
+
+
+\section{Translation vocabulary} \label{bgvocab}
+
+In translation models, the vocabulary of the source and target language is defined as what the model is exposed to during training. 
+Word-level translation models are unable to translate or generate unseen words at inference.
+The number of words in the vocabulary can be remarkably large and training models on large vocabularies is computationally expensive.  
+
+An early practice was to limit the vocabulary to the $K$ most frequent words, where $K$ is often in the range of 30k \citep{DBLP:journals/corr/BahdanauCB14} to 80k \citep{sutskever2014sequence}.
+The tail of the vocabulary not included in this shortlist is mapped to a special token \texttt{[unk]} representing an unknown or out-of-vocabulary word.
+This method results in neural models that can be trained and tested within a reasonable amount of time, however, as a consequence of this simplification, the translation quality of the model suffers. 
+Specifically, the performance decreases significantly when the translation of a source sentence requires many unknown words \citep{cho2014properties}.
+
+To address this issue, \citet{jean-etal-2015-using} proposed an approximate training algorithm that can use a very large target vocabulary (vocabularies of 500,000 source and target words). 
+They show that decoding the target sentence by sampling only a small subset of the whole vocabulary achieves competitive results without sacrificing too much speed.
+\citet{luong2014addressing} proposed a copy mechanism that aligns the OOV words on both the source and the target side by learning to copy indices.
+\citet{sennrich-haddow-birch:2016:P16-12} analyzed NMT models that work with subword units and observed that the majority of tokens are potentially translatable through smaller units. 
+They modify Byte Pair Encoding (BPE) \citep{10.5555/177910.177914} to segment words into subword units, where each of which should be frequently observed in the corpus. 
+While some segmentations correspond to correct morphemes, for many words that is not the case. 
+For instance, the word \textit{`quixotism'} would be segmented into \textit{`quixot + -ism'} and the word \textit{`sceptical'} would be segmented into \textit{`scep + -tic + -al'}.
+This approach is very effective in generalization and is able to generate words not seen during training using these subword units.
+
+In this thesis, we segment words during preprocessing using the BPE technique in all translation experiments unless stated otherwise.
+We refer to the subword units throughout the chapters as \textit{tokens}. 

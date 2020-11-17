@@ -1,0 +1,29 @@
+% !TEX root = thesis-main.tex
+
+
+\chapter{Background}
+\label{chapter:background} \label{nmtsec}
+
+Neural machine translation (NMT) is an end-to-end learning approach to machine translation that is based on neural networks.
+In contrast to traditional translation systems such as phrase-based machine translation (PBMT) \citep{koehn-etal-2003-statistical}, all components of the neural translation model are trained jointly to maximize translation performance.
+In this chapter, we discuss the NMT paradigm and the properties of building a translation model.
+
+The training data, in the format of parallel data, is a fundamental part of building NMT models.
+We first explain the training data used in the NMT paradigm in Section~\ref{databg}, followed by an overview of data preparation and building the translation vocabulary in Section~\ref{bgvocab}.
+Next, we discuss different word representation models in Section~\ref{bgemb}. 
+In the following sections, we review the two main NMT frameworks used in this thesis: recurrent neural networks (Section~\ref{RNN}) and the transformer model (Section~\ref{TRNN}). 
+Both models are classes of artificial neural networks and use large amounts of parallel data to learn a translation model. 
+Finally, in Section~\ref{bgexp}, we describe the evaluation approaches used in the later chapters of this thesis. 
+
+\input{02-background/data-lang.tex}
+
+\input{02-background/embeddings.tex}
+
+\input{02-background/rnn.tex}
+
+\input{02-background/transformer.tex}
+
+\input{02-background/eval.tex}
+ 
+
+

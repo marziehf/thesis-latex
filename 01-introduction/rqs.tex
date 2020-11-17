@@ -1,0 +1,206 @@
+% !TEX root = thesis-main.tex
+
+\section{Research outline and questions}
+\label{section:introduction:rqs}
+
+
+This thesis explores the role of context in language understanding and in particular, machine translation using recent advances in deep learning.
+We develop novel models and learning algorithms to examine the abilities of neural networks in learning from data. 
+Specifically, we are interested in the importance of contextual cues in translating words and various ways we can use data to advance translation systems further. 
+
+Before investigating the role of context in the bilingual setting of machine translation, we ask ourselves a more general question about the impact of context in monolingual settings.
+As a preliminary investigation into this question, we look into ambiguous words where, by definition, context is the prominent factor in understanding word meaning. 
+We study how document-level contexts as topics aid in distinguishing different meanings of a word. 
+
+Next, in more detail, we focus on the influence of context in the bilingual setting of machine translation. 
+While recent advances in neural networks have been very successful in translation, the significance of different aspects of data is still largely unexplored.
+We investigate how the translation models exploit context to learn and transfer meaning and show that manipulating data improves translation quality.
+In particular, our proposed models examine how different and diverse contexts resolve various obstacles of translation.
+
+Lastly, we address the shortfalls of relying only on the observed context to learn word meaning and focus on particularly interesting cases. 
+Neural networks optimize the learning process on the available data. 
+We examine under which conditions the observed context in the training data is not enough for meaning inference and capturing various linguistic phenomena. 
+Moreover, we raise questions about the learning abilities of current translation models and where they fail to capture the available information in data. 
+With contextual modifications, we identify an underlying generalization problem in state-of-the-art translation models.
+
+Concretely, we set out to answer the following research questions in this thesis:
+
+
+\acrodef{rq:topic}[\ref{rq:topic}]{\textit{Can document-level topic distribution help infer the meaning of a word?}}
+\acrodef{rq:topic1}[\ref{rq:topic1}]{\textit{ To what extent can distributions over word senses be approximated by distributions over topics of documents without assuming these concepts to be identical?}}  % [embedding]}}
+\acrodef{rq:topic2}[\ref{rq:topic2}]{\textit{ How can we exploit document-level topics to distinguish between different meanings of a word and learn the corresponding representations?}}%  [embedding]}}
+\acrodef{rq:topic3}[\ref{rq:topic3}]{\textit{ What are the advantages of using document-level topics in learning multiple representations per word? }}% [embedding]}}
+
+\acrodef{rq:tdabt}[\ref{rq:tdabt}]{\textit{How is the translation quality of a word influenced by the availability of diverse contexts?}}
+
+\acrodef{rq:tda1}[\ref{rq:tda1}]{\textit{How can we successfully augment the training data with diverse contexts for rare words?}}%   [augmentation]}}
+\acrodef{rq:tda2}[\ref{rq:tda2}]{\textit{Do rare words benefit from augmentation via paraphrasing during test time?}}% [augmentation]}}
+\acrodef{rq:bt1}[\ref{rq:bt1}]{\textit{ Do signals from the NMT model help identify low-confidence words that could benefit from additional context?  }}%  [backtrans]}}
+\acrodef{rq:bt2}[\ref{rq:bt2}]{\textit{ How can we successfully apply data selection of monolingual data to diversify the contexts of low-confidence words? }}% [backtrans]}}
+
+\acrodef{rq:vol}[\ref{rq:vol}]{\textit{To what extent are neural translation models vulnerable as a result of relying on the observed context in the training data to infer meaning? }}
+\acrodef{rq:id1}[\ref{rq:id1}]{\textit{What are the challenges of idiom translation with neural models? }} %   [idiom]}}
+\acrodef{rq:id2}[\ref{rq:id2}]{\textit{How is the translation quality of NMT influenced by idiomatic expressions? }} %  [idiom]}}
+\acrodef{rq:vol1}[\ref{rq:vol1}]{\textit{ How can contextual modifications during testing reveal a lack of robustness of translation models and affect the translation quality?}}%    [volatility]}}
+\acrodef{rq:vol2}[\ref{rq:vol2}]{\textit{ To what extent is a lack of robustness an indicator of a generalization problem in neural machine translation models?  }}% [volatility]}}
+
+
+\begin{enumerate}[label=\textbf{Research Question \arabic*:},ref={RQ\arabic*},wide = 0pt,resume]
+\setlength\itemsep{1em}
+\item \acl{rq:topic} \label{rq:topic}
+
+In this research question, we investigate whether using document-level context, as opposed to sentence-level only, has an impact on learning word representations. Word representations are abstract feature vectors that capture word meanings. To produce good representations, the learning model must capture various linguistic phenomena such as the ambiguity of the language.  
+Notably, we tackle the problem of representing ambiguous words by defining multiple representations per word and using implicit topics of documents to distinguish between different meanings of a word. 
+We divide this research question into three sub-questions and address them in Chapter~\ref{chapter:research-01}:
+
+\begin{enumerate}[label=\textbf{RQ1.\arabic*},wide = 0pt, leftmargin=2em]
+\setlength\itemsep{1em}
+\item \acl{rq:topic1}  \label{rq:topic1}
+
+\medskip
+
+Modeling document topics is commonly used in different ways to address the challenging task of word sense disambiguation \citep{boyd-graber-etal-2007-topic,li-etal-2010-topic,ChaplotS18}. 
+However, the topic of a document does not directly correspond to the senses of the words in that document.
+We investigate whether a document topic distribution is an informative signal to help distinguish between different senses of a word and how we can leverage this information to learn word representations. 
+Next, we ask:
+
+\item \acl{rq:topic2}  \label{rq:topic2}
+
+\medskip
+
+To answer this question, we estimate document-topic distributions using unsupervised topic modeling techniques. 
+We observe that the produced distribution over topics is different for different senses of an ambiguous word. 
+We propose three variants of the Skipgram word embedding model \citep{mikolov2013efficient} to integrate topic distributions and learn multiple representations per word. 
+
+\item \acl{rq:topic3}  \label{rq:topic3}
+
+\medskip
+
+To further evaluate our models, we analyze the linguistic phenomena captured by topic-sensitive word representations. 
+Namely, we show that different senses of a word are separated into different representations. 
+We observe that the additional context of a document topic is most beneficial when the task is more complex.
+We find that these representations achieve improvements over the baselines for word similarity and lexical substitution tasks. 
+
+\end{enumerate}
+
+Having examined the effectiveness of learning word representations using auxiliary contextual information, we then investigate how the diversity of the context affects language understanding and transfer of meaning between two languages. Concretely we ask:
+
+\item \acl{rq:tdabt}  \label{rq:tdabt}
+
+In this research question, we choose machine translation as the task of interest.
+We investigate this question by diversifying the local context for different words and propose various data augmentation techniques with the new contexts. 
+Additionally, we explore the influence of these synthetic contexts on translation quality. 
+We divide this research question into four sub-questions and discuss them in Chapters~\ref{chapter:research-02} and~\ref{chapter:research-03} of this thesis. 
+
+\begin{enumerate}[label=\textbf{RQ2.\arabic*},wide = 0pt, leftmargin=2em]
+\setlength\itemsep{1em}
+\item \acl{rq:tda1} \label{rq:tda1}
+
+\medskip
+
+In this question, we are interested in translation of rare words in low-resource settings where the available data is scarce for one or both languages. 
+The success of neural networks is partly due to their ability to learn from vast amounts of data efficiently. 
+These models suffer significantly when sufficient data is not available \citep{ngo-etal-2019-overcoming}.
+Subsequently, even with adequate data, neural machine translation models have difficulty learning the meaning of rare words existing in the source language \citep{koehn2017six}. 
+Additionally, they are also not successful in generating rare words in the target language \citep{luong2014addressing}.  
+To answer this question, in Chapter~\ref{chapter:research-02}, we propose a data augmentation technique that targets rare words and substitute them in new sentences with novel contexts. 
+Leveraging a monolingual corpus, which is available in much larger quantities in comparison to a bilingual corpus, we create new contexts for rare words in the training data.
+We investigate how additional data can improve the learning and the generation of rare words. 
+In Chapter~\ref{chapter:research-02}, we show that by increasing the diversity of the contexts of rare words, we can achieve significant improvements in translation quality.
+
+\item \acl{rq:tda2} \label{rq:tda2}
+
+\medskip
+
+Diversifying context is only valid when both source and target sentences are modified, i.e., at training time when the model has access to the sentence pairs.
+During inference, only the source sentence is available and we use the reference sentence solely for evaluation. 
+As a consequence, any changes to the source sentence have to be meaning-preserving so that we do not modify the reference translations.
+We propose a data augmentation technique at test time, focusing on \textit{paraphrasing} rare and unknown words in the source sentence. 
+In contrast to our previous approach where the goal was to diversify the context of rare words in the training data, here we substitute rare words with more common synonyms.
+In Chapter~\ref{chapter:research-02}, we show that with paraphrasing rare words at test time, we gain improvements in translation quality. 
+
+
+\item \acl{rq:bt1} \label{rq:bt1}
+
+\medskip
+
+In the previous research questions, we identify rare words as words that can benefit from additional contexts. 
+While the translation quality of these words improves with our proposed data augmentation technique, these are not the only words that suffer due to inadequacies in the training data. 
+In Chapter~\ref{chapter:research-03}, we expand our investigation in this direction. 
+Rather than using features like frequency in the training data, we look into the \textit{model} itself and where it struggles.
+We detect the words for which the model has low confidence during translation. 
+We examine various approaches to identify these low-confidence words as signaled by the model and augment the training data accordingly. 
+Hence, we ask:
+
+\item \acl{rq:bt2} \label{rq:bt2}
+
+\medskip
+
+To generate new contexts and augment the training data, we propose targeted back-translation. 
+Back-translation leverages monolingual data in the target language and a trained translation model to translate randomly selected sentences into the source language \citep{sennrich-haddow-birch:2016:P16-11}. 
+The automatically generated bilingual data, although noisy, is added to the training data and the translation model is trained on the augmented data.  
+In Chapter~\ref{chapter:research-03}, we identify words that can benefit from diverse context.
+We show that by back-translating sentences containing low-confidence words, we achieve improvements over the baselines. 
+
+\end{enumerate}
+
+Having demonstrated the advantages of using contextual cues in various forms to improve word representation learning and translation modeling, we come to the final research question of this thesis.
+Here, we investigate the shortcomings of relying on the observed context. 
+Concretely we ask:
+
+\item \acl{rq:vol} \label{rq:vol}
+
+While the success of neural networks in NLP is indisputable, it is well worth to ask whether neural networks have hidden vulnerabilities. 
+In this research question, we also choose machine translation as the task of interest.
+We are interested in vulnerabilities of the translation models that can be exposed by looking into the data. 
+In particular, we divide this research question into four sub-questions and discuss them in Chapters~\ref{chapter:research-04} and~\ref{chapter:research-05} of this thesis:
+
+\begin{enumerate}[label=\textbf{RQ3.\arabic*},wide = 0pt, leftmargin=2em]
+\setlength\itemsep{1em}
+\item \acl{rq:id1} \label{rq:id1}
+
+\medskip
+
+Neural translation models struggle in handling idiosyncratic linguistic patterns. 
+One of these patterns are idioms, which are semantic lexical units whose meaning is not merely a function of the meaning of its constituent parts.
+In Chapter~\ref{chapter:research-04}, we look into idiomatic expressions in particular and why the translation of such phrases is a challenge. 
+Furthermore, we automatically label parallel training and test data for idiomatic expressions using a bilingual dictionary of idioms.
+We assess whether the sentential context is enough for inferring idiomatic meanings and show that it is indeed not the case.
+
+Next, we ask:
+
+\item \acl{rq:id2} \label{rq:id2}
+
+\medskip
+
+There is no explicit indicator in the data to signal whether a phrase should be translated literally or idiomatically in any given context. 
+Researchers have shown that neural models can benefit from side constraints in data in various cases. For instance, 
+\citet{sennrich-etal-2016-controlling} note that adding side constraints as unique tokens at the end of the source text help the model translate to the desired level of politeness. 
+In Chapter~\ref{chapter:research-04}, we investigate whether a similar technique is useful for the translation of sentences containing idiomatic expressions. 
+
+\medskip
+
+\noindent Finally, we look into other vulnerabilities of neural models which can be highlighted by contextual cues. 
+Our next research question focuses on other cases where NMT models fail to generate a correct translation. 
+To investigate this question, we first examined how to expose this shortcoming in translation models by asking:  
+
+\item \acl{rq:vol1} \label{rq:vol1}
+
+\medskip
+
+In Chapter~\ref{chapter:research-05}, we ask how receptive the translation models are to manipulations of data. While previous works have investigated the performance of neural models when encountering noise in the form of adversarial instances \citep{goodfellow6572explaining,D18-1050,DBLP:journals/corr/abs-1711-02173}, we are interested in unexpected performance when the data is \textit{not} noisy.
+
+Next, we investigate the robustness of neural translation models by asking:
+
+\item \acl{rq:vol2} \label{rq:vol2}
+
+\medskip
+
+We propose an approach to generate contextual modifications in the test data, yielding semantically and syntactically correct sentences.
+Our new test data sheds light on volatile behaviour in current state-of-the-art translation models. 
+In Chapter~\ref{chapter:research-05}, we show that identifying this volatility is already achievable with extremely minor modifications.
+Our findings highlight unexpected but recurring patterns of errors and possible problems of generalization in neural translation models.
+
+\end{enumerate}
+\end{enumerate}
+

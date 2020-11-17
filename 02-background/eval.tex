@@ -1,0 +1,40 @@
+\section{Translation evaluation} \label{bgexp}
+
+We evaluate all translation experiments in this thesis using the BiLingual Evaluation Understudy metric, better known as BLEU \citep{Papineni2001}.
+This metric assesses the closeness of the generated translation to a human reference translation.
+It includes a \textit{brevity penalty} (BP) to avoid preferring shorter translations. 
+The BLEU score for $n$-grams up to length $N$ is defined as:
+%
+\begin{align}
+\bleu {_n} = \bp. \exp \bigg( \sum_{n=1}^N w_n \log p_n \bigg)
+\end{align}
+
+\noindent 
+where $w_n$ is a weight assigned to the size of $n$-gram (often set uniformly to $1/N$). $p_n$ is computed as:
+%
+\begin{align} 
+p_n &= \frac{ \sum\limits_{{c} \in \{candidates\}} \sum\limits_{{n\!\gram} \in {c}} \countop_{clip}({n\!\gram}) }{  \sum\limits_{{c'} \in \{candidates\}}^{} \sum\limits_{{n\!\gram }' \in {c'}} \countop({n\!\gram}')  }
+\end{align}
+\noindent
+where:
+\begin{align} 
+\countop{_{clip}}(x) &= \min(\countop(x), \textit{max\_ref\_count})(x)) 
+\end{align}
+\noindent
+Here, $candidates$ are translation candidates, and \textit{max\_ref\_count} is the largest count observed in the reference for that word. 
+Scores are calculated over sentence pairs in the test set and the average BLEU is reported for the entire test set.  
+Unless stated otherwise, in this thesis we compute case-sensitive BLEU up to and including $n$-grams of length 4. 
+
+We also use other evaluation metrics, namely METEOR and Translation Error Rate (TER), in some chapters of this thesis.
+METEOR is another metric to automatically evaluate translation quality \citep{banerjee-lavie-2005-meteor,denkowski-lavie-2011-meteor,denkowski:lavie:meteor-wmt:2014}.
+Similar to BLEU, this metric compares the translation output with a reference translation, however, it addresses some of the deficiencies of the BLEU metric.
+This is done by aligning the two sentences not only based on the exact match, but also on matching synonyms and paraphrases. 
+METEOR has to be fine-tuned to achieve maximum correlation with human judgments \citep{agarwal-lavie-2008-meteor}.
+TER is an easy-to-explain metric to compare translation output and manually created reference translation \citep{Snover06astudy}. 
+It measures the number of edits required to change a translation output into one of the references.
+A higher score of TER is a sign of more post-editing effort and it may not always correlate with translation quality.
+
+While all these metrics attempt to measure translation quality, they assume inexact models of permissible variations in translation and may not capture the precise quality of a system \citep{callison-burch-etal-2006-evaluating}.
+However, they allow for systematic evaluation of incremental changes to a single system and are very inexpensive to perform. 
+We specifically choose BLEU because it is the most common metric and it makes it possible to compare various systems.
+In Chapters~\ref{chapter:research-04} and~\ref{chapter:research-05} of this thesis, we explore cases where the translation quality of NMT models are affected, but individual automatic metrics do not reflect this change in quality. 

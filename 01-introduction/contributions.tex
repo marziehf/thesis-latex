@@ -1,0 +1,64 @@
+% !TEX root = thesis-main.tex
+
+\section{Main contributions}
+\label{section:introduction:contributions}
+
+Here we summarize the main algorithmic and empirical contributions of this thesis to the field of natural language processing and in particular machine translation, as well as the constructed resources.
+
+\subsection{Algorithmic contributions}
+
+We develop novel learning algorithms and neural network models for investigating the influence of context in learning capacities of models. 
+
+\begin{enumerate}
+\item We present a framework for learning multiple embeddings per word using topical context.  With three variants of our model, we employ topical context in various ways and learn distinctions between different senses of the words (Chapter~\ref{chapter:research-01}).
+\item We introduce a data augmentation technique for generating new contexts for rare words in machine translation. 
+Leveraging monolingual data, we propose a neural language model that given a sentence, suggests rare words to substitute into the given context. 
+This new method can be applied to any low-resource language pair as long as there are monolingual data available in both languages (Chapter~\ref{chapter:research-02}).
+\item We introduce a novel method to identify difficult words, where the neural translation model has low prediction confidence.
+Leveraging this information, we improve upon an existing augmentation technique by replacing its random selection with targeted selection and specifically provide new contexts for low-confidence words (Chapter~\ref{chapter:research-03}).
+\item We propose a procedure to (i) automatically detect idiomatic expressions in sentences using a dictionary of idioms, and (ii) automatically annotate the bilingual data with the corresponding idioms (Chapter~\ref{chapter:research-04}).
+\item We introduce an effective technique to shed light on the lack of robustness of neural translation models. 
+Our approach generates variants of the same sentences that differ slightly and are semantically and syntactically correct. 
+We investigate the behaviour of the neural model in translating these variants by proposing metrics to identify volatile performance (Chapter~\ref{chapter:research-05}).
+\end{enumerate}
+
+\subsection{Empirical contributions} 
+
+We evaluate our proposed models on large scale data sets as well as controled experiments to validate our hypotheses. We provide empirical results for each research question asked in this thesis. 
+More specifically:
+
+\begin{enumerate}
+\item We compare how different approaches of incorporating topical context affect the resulting representations. 
+We assess the topic-sensitive word representations on word similarity and lexical substitution tasks and perform a qualitative analysis between different representations of a word (Chapter~\ref{chapter:research-01}).
+\item We evaluate the effectiveness of our first data augmentation approach in machine translation for two language directions: English$\rightarrow$German and German$\rightarrow$English.
+We simulate a low-resource setting by only using a subset of the available training data, while simultaneously being able to compute the upper bound of performance in case more data is available.
+Our approach successfully mitigates the problem of rare word translation, where sufficient bilingual training data is not available. 
+We perform an analysis of the confidence of the translation model for both generating and translating rare words (Chapter~\ref{chapter:research-02}).
+\item We evaluate our second proposed data augmentation approach in machine translation for two language directions: English$\rightarrow$German and German$\rightarrow$English.
+We study the effects of previous data augmentation techniques on confidence and the learning capacity of the translation model. 
+We compare various ways of identifying low-confidence words and show that targeted data augmentation using these words improves translation quality.
+We demonstrate that with diversifying contexts of difficult words, the confidence of the model in predicting these words and consequently the translation quality improve (Chapter~\ref{chapter:research-03}).
+\item We conduct an empirical evaluation of translation models facing sentences that include an idiomatic expression. 
+Using annotated training and test data, we demonstrate how the current neural translation models struggle with translating idioms.
+We show that even when we annotate them in the training data, translating these expressions is a challenge and the translation models require much broader knowledge to learn them (Chapter~\ref{chapter:research-04}).
+\item  We show that fluctuations in translations of extremely similar sentences are more prominent than expected. These findings can be used to develop more robust models (Chapter~\ref{chapter:research-05}).
+\end{enumerate}
+
+
+
+\subsection{Resource contributions}
+
+We release the resources of the proposed models in this thesis including source codes and annotated data. More specifically:
+
+\begin{enumerate}
+\item Chapter~\ref{chapter:research-01}: We released the code for the proposed models where we use document topics to learn word representations.
+\item Chapter~\ref{chapter:research-02}: We released the code for targeted data augmentation of parallel corpora using language models.
+\item Chapter~\ref{chapter:research-04}: We released the annotations of idiomatic phrases in training, development, and test data. The bilingual corpora can be used for translation of English$\rightarrow$German and German$\rightarrow$English.
+\item Chapter~\ref{chapter:research-05}: We released a data set which contains multiple variants for each sentence pair in the standard WMT English$\leftrightarrow$German test data.
+We annotate the translations of these variants and label different types of errors. Additionally, we release the code for generating sentence variations of bilingual corpora for a more in-depth evaluation of translation quality.
+\end{enumerate}
+
+
+
+
+

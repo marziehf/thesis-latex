@@ -1,0 +1,90 @@
+% !TEX root = thesis-main.tex
+
+\begin{savequote}[45mm]
+--- Il n'y a pas de hors-texte.
+\qauthor{Jacques Derrida}
+\end{savequote}
+
+\chapter{Introduction}
+
+
+\label{chapter:introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  OPENING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% NN learning from data
+Neural networks learn patterns from data to solve complex problems.
+To understand and infer meaning in language, neural models have to learn complicated nuances.
+
+% detour to nuances of language
+Discovering distinctive linguistic phenomena from data is not an easy task. 
+For instance, lexical ambiguity is a fundamental feature of language which is challenging to learn \citep{small2013lexical}. 
+Even more prominently, inferring the meaning of rare and unseen lexical units is difficult with neural networks \citep{koehn2017six}. 
+For instance, \citet{rios-etal-2018-word} provide an example where an English-German translation model translates the sentence ``[$\ldots$] \textit{Hedge-Fund- \textbf{Anlagen} nicht zwangsl\"{a}ufig risikoreicher sind als traditionelle  \textbf{Anlagen}}'' to 
+``[$\ldots$] \textit{hedge fund \underline{assets} are not necessarily more risky than traditional \underline{plants}}''. Here, the ambiguous word \textit{`Anlagen'} is first translated correctly to \textit{`assets'}, but then incorrectly to \textit{`plants'} in the second occurrence.
+
+To understand many of these phenomena, a model has to learn from a few instances and be able to generalize well to unseen cases.
+%
+% connect using context to learn nuances of language
+%
+Natural language speakers typically learn the meanings of words by the \textit{context} in which they are used.
+ \citet{miller-1985-dictionaries} states that:
+\begin{quote}
+``\emph{When subtle semantic distinctions are at issue, it is customary to remark that a satisfactory language understanding system will have to know a great deal more than the linguistic values of words.}''
+\end{quote}
+
+\noindent Sentence and document-level context provide the possibility to go beyond lexical instances and study words in a broader context.
+Neural models use a sizable amount of data that often consists of contextual instances to learn patterns.
+% back to learning from data and the necessity of {data-driven} learning 
+However, the learning process is hindered when training data is scarce for a task \citep{45801,edunov-etal-2018-understanding}.
+Even with sufficient data, learning patterns for the long tail of the lexical distribution is challenging \citep{NIPS2017_7278}. 
+To address these problems, one approach is to augment the training data \citep{sennrich-haddow-birch:2016:P16-11}.
+Many strategies for data augmentation focus on increasing the amount of data to assist the learning process of data-driven neural models.
+While simply increasing the size of data is helpful, it is not entirely clear \textit{where} the improvements come from and \textit{how} neural models benefit from the additional context with augmentation. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  FIRST PART OF THE TITLE: "ENHANCING THE USE OF CONTEXT [...]"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% What is important about context and why we want to understand and enhance it?
+Arguably, it is important to understand the impact of new contexts to design augmentation models that exploit these contexts.
+This includes understanding what constitutes a beneficial context, and how to enhance the use of context in neural models.
+In this thesis, we focus on understanding certain potentials of contexts in a neural model, and design augmentation models to benefit from them. 
+%We are particularly interested in the use of context in understanding meaning in a language.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  SECOND PART OF THE TITLE: "[...] FOR MACHINE TRANSLATION"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% why machine translation?
+We focus on machine translation as a prominent instance of the more general language understanding problems. 
+In order to translate from a source language to a target language, a neural model has to understand the meaning of constituents in the provided context and generate constituents with the same meanings in the target language.
+This task accentuates the value of capturing nuances of language and the necessity of generalization from few observations \citep{DBLP:journals/corr/abs-2004-02181}.
+Additionally, the lack of large amounts of labeled data is even more pronounced in machine translation in the form of bilingual corpora.
+This signifies the need for efficient and informed data augmentation models.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  CLOSING THE INTRO SECTION IF THE INTRODUCTION CHAPTER!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\medskip
+
+% focus on _where_ and _why_
+The main problem we study in this thesis is what neural machine translation models (NMT) learn from data, and how we can devise more focused contexts to enhance this learning.
+We believe that looking more in-depth into the role of context and the impact of data on learning models is essential to advance the Natural Language Processing (NLP) field. 
+Understanding the importance of data in the learning process and how neural network models interact, utilize, and benefit from data can help develop more {accurate} NLP systems. 
+Moreover, it helps highlight vulnerabilities and volatilities of current neural networks and provides insights into designing more  robust models.
+
+
+
+
+%% The research questions and sub questions
+\input{01-introduction/rqs}
+
+%% Lists the main contributions of the thesis
+\input{01-introduction/contributions}
+
+%% Overview of the thesis; what is described in which chapter
+\input{01-introduction/overview}
+
+%% Describes the papers from which the chapters  originate
+\input{01-introduction/origins}
